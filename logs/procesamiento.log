@@ -1,0 +1,1371 @@
+[2025-11-26 01:17:03] [INFO] [__main__] ============================================================
+[2025-11-26 01:17:03] [INFO] [__main__] SISTEMA DE EXTRACCIÓN DE DATOS - MONITOREO AMBIENTAL
+[2025-11-26 01:17:03] [INFO] [__main__] Base de datos: SQLite (plug and play)
+[2025-11-26 01:17:03] [INFO] [__main__] ============================================================
+[2025-11-26 01:17:03] [INFO] [__main__] Inicializando base de datos...
+[2025-11-26 01:17:03] [WARNING] [config.database] Archivo de schema no encontrado: /home/satoshi/MonitoreoAmbiental/sql/01_create_schema_sqlite.sql
+[2025-11-26 01:17:03] [ERROR] [__main__] ✗ Error inicializando base de datos
+[2025-11-26 01:21:48] [INFO] [__main__] ============================================================
+[2025-11-26 01:21:48] [INFO] [__main__] SISTEMA DE EXTRACCIÓN DE DATOS - MONITOREO AMBIENTAL
+[2025-11-26 01:21:48] [INFO] [__main__] Base de datos: SQLite (plug and play)
+[2025-11-26 01:21:48] [INFO] [__main__] ============================================================
+[2025-11-26 01:21:48] [INFO] [__main__] Inicializando base de datos...
+[2025-11-26 01:21:48] [WARNING] [config.database] Archivo de schema no encontrado: /home/satoshi/MonitoreoAmbiental/sql/01_create_schema_sqlite.sql
+[2025-11-26 01:21:48] [ERROR] [__main__] ✗ Error inicializando base de datos
+[2025-11-26 01:22:48] [INFO] [__main__] ============================================================
+[2025-11-26 01:22:48] [INFO] [__main__] SISTEMA DE EXTRACCIÓN DE DATOS - MONITOREO AMBIENTAL
+[2025-11-26 01:22:48] [INFO] [__main__] Base de datos: SQLite (plug and play)
+[2025-11-26 01:22:48] [INFO] [__main__] ============================================================
+[2025-11-26 01:22:48] [INFO] [__main__] Inicializando base de datos...
+[2025-11-26 01:22:48] [INFO] [config.database] Base de datos inicializada exitosamente
+[2025-11-26 01:22:48] [INFO] [__main__] ✓ Base de datos inicializada exitosamente
+[2025-11-26 01:22:48] [INFO] [__main__]   Ubicación: data/monitoreo_ambiental.db
+[2025-11-26 01:22:48] [INFO] [__main__]   Tablas creadas: 13
+[2025-11-26 01:22:48] [INFO] [__main__]     - auditoria_extraccion
+[2025-11-26 01:22:48] [INFO] [__main__]     - centros
+[2025-11-26 01:22:48] [INFO] [__main__]     - config_valores_default
+[2025-11-26 01:22:48] [INFO] [__main__]     - log_procesamiento
+[2025-11-26 01:22:48] [INFO] [__main__]     - ordenes_trabajo
+[2025-11-26 01:22:48] [INFO] [__main__]     - oxigeno_mediciones
+[2025-11-26 01:22:48] [INFO] [__main__]     - oxigeno_perfiles
+[2025-11-26 01:22:48] [INFO] [__main__]     - registro_visual_abundancia
+[2025-11-26 01:22:48] [INFO] [__main__]     - registro_visual_transectas
+[2025-11-26 01:22:48] [INFO] [__main__]     - sedimento_estaciones
+[2025-11-26 01:22:48] [INFO] [__main__]     - sedimento_materia_organica
+[2025-11-26 01:22:48] [INFO] [__main__]     - sedimento_ph_redox
+[2025-11-26 01:22:48] [INFO] [__main__]     - sqlite_sequence
+[2025-11-26 01:23:24] [INFO] [__main__] ============================================================
+[2025-11-26 01:23:24] [INFO] [__main__] SISTEMA DE EXTRACCIÓN DE DATOS - MONITOREO AMBIENTAL
+[2025-11-26 01:23:24] [INFO] [__main__] Base de datos: SQLite (plug and play)
+[2025-11-26 01:23:24] [INFO] [__main__] ============================================================
+[2025-11-26 01:23:24] [INFO] [__main__] Probando conexión a base de datos...
+[2025-11-26 01:23:24] [INFO] [__main__] ✓ Conexión exitosa
+[2025-11-26 01:23:24] [INFO] [__main__]   Base de datos: data/monitoreo_ambiental.db
+[2025-11-26 01:23:24] [INFO] [__main__]   Tablas encontradas: 13
+[2025-11-26 01:23:24] [INFO] [__main__]     - auditoria_extraccion: 0 registros
+[2025-11-26 01:23:24] [INFO] [__main__]     - centros: 0 registros
+[2025-11-26 01:23:24] [INFO] [__main__]     - config_valores_default: 5 registros
+[2025-11-26 01:23:24] [INFO] [__main__]     - log_procesamiento: 0 registros
+[2025-11-26 01:23:24] [INFO] [__main__]     - ordenes_trabajo: 0 registros
+[2025-11-26 01:24:48] [INFO] [__main__] ============================================================
+[2025-11-26 01:24:48] [INFO] [__main__] SISTEMA DE EXTRACCIÓN DE DATOS - MONITOREO AMBIENTAL
+[2025-11-26 01:24:48] [INFO] [__main__] Base de datos: SQLite (plug and play)
+[2025-11-26 01:24:48] [INFO] [__main__] ============================================================
+[2025-11-26 01:24:48] [INFO] [__main__] 
+============================================================
+[2025-11-26 01:24:48] [INFO] [__main__] Procesando: OT 1319 -EJEMPLO PDF SEDIMENTO_Censurado (1).pdf
+[2025-11-26 01:24:48] [INFO] [__main__] ============================================================
+[2025-11-26 01:24:49] [INFO] [__main__] Tipo de informe: SEDIMENTO
+[2025-11-26 01:24:49] [INFO] [extractors.sedimento_extractor] Iniciando extracción de sedimento: data/pdfs/OT 1319 -EJEMPLO PDF SEDIMENTO_Censurado (1).pdf
+[2025-11-26 01:24:49] [WARNING] [utils.pdf_parser] Código OT extraído del nombre archivo: 1319
+[2025-11-26 01:24:49] [WARNING] [utils.pdf_parser] No se pudo extraer fecha de muestreo
+[2025-11-26 01:24:49] [WARNING] [extractors.sedimento_extractor] Tipo de monitoreo no detectado, usando default: INFA
+[2025-11-26 01:24:49] [WARNING] [utils.pdf_parser] Error en pdfplumber: 'DataFrame' object has no attribute 'dtype'
+[2025-11-26 01:24:49] [INFO] [utils.pdf_parser] Fallback a tabula...
+[2025-11-26 01:24:49] [WARNING] [tabula.backend] Failed to import jpype dependencies. Fallback to subprocess.
+[2025-11-26 01:24:49] [WARNING] [tabula.backend] No module named 'jpype'
+[2025-11-26 01:24:53] [ERROR] [extractors.sedimento_extractor] No se encontró columna de código de estación
+[2025-11-26 01:24:53] [WARNING] [utils.pdf_parser] Error en pdfplumber: 'DataFrame' object has no attribute 'dtype'
+[2025-11-26 01:24:53] [INFO] [utils.pdf_parser] Fallback a tabula...
+[2025-11-26 01:24:55] [ERROR] [extractors.sedimento_extractor] Columnas esenciales de MOT no encontradas
+[2025-11-26 01:24:55] [WARNING] [utils.pdf_parser] Error en pdfplumber: 'DataFrame' object has no attribute 'dtype'
+[2025-11-26 01:24:55] [INFO] [utils.pdf_parser] Fallback a tabula...
+[2025-11-26 01:24:57] [ERROR] [extractors.sedimento_extractor] Columnas esenciales de pH/Redox no encontradas
+[2025-11-26 01:24:57] [INFO] [extractors.sedimento_extractor] Centro AERÓBICO: 0 incumplimientos (umbral: 3)
+[2025-11-26 01:24:57] [INFO] [extractors.sedimento_extractor] Extracción completada: 0 estaciones, 0 mediciones MOT, 0 mediciones pH/Redox
+[2025-11-26 01:24:57] [INFO] [__main__] Validación exitosa
+[2025-11-26 01:24:57] [INFO] [__main__] DRY RUN: No se cargó a base de datos
+[2025-11-26 01:24:57] [INFO] [__main__] Procesamiento completado en 8.15 segundos
+[2025-11-26 01:30:20] [INFO] [__main__] ============================================================
+[2025-11-26 01:30:20] [INFO] [__main__] SISTEMA DE EXTRACCIÓN DE DATOS - MONITOREO AMBIENTAL
+[2025-11-26 01:30:20] [INFO] [__main__] Base de datos: SQLite (plug and play)
+[2025-11-26 01:30:20] [INFO] [__main__] ============================================================
+[2025-11-26 01:30:20] [INFO] [__main__] 
+============================================================
+[2025-11-26 01:30:20] [INFO] [__main__] Procesando: OT 1319 -EJEMPLO PDF SEDIMENTO_Censurado (1).pdf
+[2025-11-26 01:30:20] [INFO] [__main__] ============================================================
+[2025-11-26 01:30:20] [INFO] [__main__] Tipo de informe: SEDIMENTO
+[2025-11-26 01:30:20] [INFO] [extractors.sedimento_extractor] Iniciando extracción de sedimento: data/pdfs/OT 1319 -EJEMPLO PDF SEDIMENTO_Censurado (1).pdf
+[2025-11-26 01:30:20] [WARNING] [utils.pdf_parser] Código OT extraído del nombre archivo: 1319
+[2025-11-26 01:30:20] [WARNING] [utils.pdf_parser] No se pudo extraer fecha de muestreo
+[2025-11-26 01:30:20] [WARNING] [extractors.sedimento_extractor] Tipo de monitoreo no detectado, usando default: INFA
+[2025-11-26 01:30:21] [WARNING] [utils.pdf_parser] Error en pdfplumber: 'DataFrame' object has no attribute 'str'
+[2025-11-26 01:30:21] [INFO] [utils.pdf_parser] Fallback a tabula...
+[2025-11-26 01:30:21] [WARNING] [tabula.backend] Failed to import jpype dependencies. Fallback to subprocess.
+[2025-11-26 01:30:21] [WARNING] [tabula.backend] No module named 'jpype'
+[2025-11-26 01:30:22] [ERROR] [extractors.sedimento_extractor] No se encontró columna de código de estación
+[2025-11-26 01:30:22] [WARNING] [utils.pdf_parser] Error en pdfplumber: 'DataFrame' object has no attribute 'str'
+[2025-11-26 01:30:22] [INFO] [utils.pdf_parser] Fallback a tabula...
+[2025-11-26 01:30:24] [ERROR] [extractors.sedimento_extractor] Columnas esenciales de MOT no encontradas
+[2025-11-26 01:30:24] [WARNING] [utils.pdf_parser] Error en pdfplumber: 'DataFrame' object has no attribute 'str'
+[2025-11-26 01:30:24] [INFO] [utils.pdf_parser] Fallback a tabula...
+[2025-11-26 01:30:26] [ERROR] [extractors.sedimento_extractor] Columnas esenciales de pH/Redox no encontradas
+[2025-11-26 01:30:26] [INFO] [extractors.sedimento_extractor] Centro AERÓBICO: 0 incumplimientos (umbral: 3)
+[2025-11-26 01:30:26] [INFO] [extractors.sedimento_extractor] Extracción completada: 0 estaciones, 0 mediciones MOT, 0 mediciones pH/Redox
+[2025-11-26 01:30:26] [INFO] [__main__] Validación exitosa
+[2025-11-26 01:30:26] [INFO] [__main__] DRY RUN: No se cargó a base de datos
+[2025-11-26 01:30:26] [INFO] [__main__] Procesamiento completado en 5.36 segundos
+[2025-11-26 01:41:09] [INFO] [__main__] ============================================================
+[2025-11-26 01:41:09] [INFO] [__main__] SISTEMA DE EXTRACCIÓN DE DATOS - MONITOREO AMBIENTAL
+[2025-11-26 01:41:09] [INFO] [__main__] Base de datos: SQLite (plug and play)
+[2025-11-26 01:41:09] [INFO] [__main__] ============================================================
+[2025-11-26 01:41:09] [INFO] [__main__] 
+============================================================
+[2025-11-26 01:41:09] [INFO] [__main__] Procesando: OT 1319 -EJEMPLO PDF SEDIMENTO_Censurado (1).pdf
+[2025-11-26 01:41:09] [INFO] [__main__] ============================================================
+[2025-11-26 01:41:09] [INFO] [utils.pdf_parser] Código OT extraído: 1319
+[2025-11-26 01:41:09] [WARNING] [utils.pdf_parser] No se pudo extraer fecha de muestreo
+[2025-11-26 01:41:09] [INFO] [utils.pdf_parser] Tipo de informe: DESCONOCIDO
+[2025-11-26 01:41:09] [INFO] [__main__] Tipo de informe: DESCONOCIDO
+[2025-11-26 01:41:09] [WARNING] [__main__] Tipo de informe no soportado aún: DESCONOCIDO
+[2025-11-26 01:43:47] [INFO] [__main__] ============================================================
+[2025-11-26 01:43:47] [INFO] [__main__] SISTEMA DE EXTRACCIÓN DE DATOS - MONITOREO AMBIENTAL
+[2025-11-26 01:43:47] [INFO] [__main__] Base de datos: SQLite (plug and play)
+[2025-11-26 01:43:47] [INFO] [__main__] ============================================================
+[2025-11-26 01:43:47] [INFO] [__main__] 
+============================================================
+[2025-11-26 01:43:47] [INFO] [__main__] Procesando: OT 1319 -EJEMPLO PDF SEDIMENTO_Censurado (1).pdf
+[2025-11-26 01:43:47] [INFO] [__main__] ============================================================
+[2025-11-26 01:43:47] [INFO] [utils.pdf_parser] Código OT extraído: 1319
+[2025-11-26 01:43:47] [WARNING] [utils.pdf_parser] No se pudo extraer fecha de muestreo
+[2025-11-26 01:43:47] [INFO] [utils.pdf_parser] Tipo de informe: SEDIMENTO
+[2025-11-26 01:43:47] [INFO] [__main__] Tipo de informe: SEDIMENTO
+[2025-11-26 01:43:47] [INFO] [extractors.sedimento_extractor] Iniciando extracción de sedimento: data/pdfs/OT 1319 -EJEMPLO PDF SEDIMENTO_Censurado (1).pdf
+[2025-11-26 01:43:47] [INFO] [extractors.sedimento_extractor] Tipo de monitoreo: INFA-POST
+[2025-11-26 01:43:47] [INFO] [extractors.sedimento_extractor] Extraídas 1 mediciones de MOT
+[2025-11-26 01:43:47] [INFO] [extractors.sedimento_extractor] Extraídas 16 mediciones de pH/Redox
+[2025-11-26 01:43:47] [INFO] [extractors.sedimento_extractor] Centro AERÓBICO: 0 incumplimientos (umbral: 3)
+[2025-11-26 01:43:47] [INFO] [extractors.sedimento_extractor] Extracción completada: 8 estaciones, 1 mediciones MOT, 16 mediciones pH/Redox
+[2025-11-26 01:43:47] [INFO] [__main__] Validación exitosa
+[2025-11-26 01:43:47] [INFO] [__main__] DRY RUN: No se cargó a base de datos
+[2025-11-26 01:43:47] [INFO] [__main__] Procesamiento completado en 0.37 segundos
+[2025-11-26 01:52:10] [INFO] [__main__] ============================================================
+[2025-11-26 01:52:10] [INFO] [__main__] SISTEMA DE EXTRACCIÓN DE DATOS - MONITOREO AMBIENTAL
+[2025-11-26 01:52:10] [INFO] [__main__] Base de datos: SQLite (plug and play)
+[2025-11-26 01:52:10] [INFO] [__main__] ============================================================
+[2025-11-26 01:52:10] [INFO] [__main__] 
+============================================================
+[2025-11-26 01:52:10] [INFO] [__main__] Procesando: OT 1319 -EJEMPLO PDF SEDIMENTO_Censurado (1).pdf
+[2025-11-26 01:52:10] [INFO] [__main__] ============================================================
+[2025-11-26 01:52:10] [INFO] [utils.pdf_parser] Código OT extraído: 1319
+[2025-11-26 01:52:10] [WARNING] [utils.pdf_parser] No se pudo extraer fecha de muestreo
+[2025-11-26 01:52:10] [INFO] [utils.pdf_parser] Tipo de informe: SEDIMENTO
+[2025-11-26 01:52:10] [INFO] [__main__] Tipo de informe: SEDIMENTO
+[2025-11-26 01:52:10] [INFO] [extractors.sedimento_extractor] Iniciando extracción de sedimento: data/pdfs/OT 1319 -EJEMPLO PDF SEDIMENTO_Censurado (1).pdf
+[2025-11-26 01:52:10] [INFO] [extractors.sedimento_extractor] Tipo de monitoreo: INFA-POST
+[2025-11-26 01:52:10] [INFO] [extractors.sedimento_extractor] Extraídas 8 mediciones de MOT
+[2025-11-26 01:52:10] [INFO] [extractors.sedimento_extractor] Extraídas 16 mediciones de pH/Redox
+[2025-11-26 01:52:10] [INFO] [extractors.sedimento_extractor] Centro AERÓBICO: 0 incumplimientos (umbral: 3)
+[2025-11-26 01:52:10] [INFO] [extractors.sedimento_extractor] Extracción completada: 8 estaciones, 8 mediciones MOT, 16 mediciones pH/Redox
+[2025-11-26 01:52:10] [INFO] [__main__] Validación exitosa
+[2025-11-26 01:52:10] [INFO] [__main__] DRY RUN: No se cargó a base de datos
+[2025-11-26 01:52:10] [INFO] [__main__] Procesamiento completado en 0.36 segundos
+[2025-11-26 01:53:09] [INFO] [__main__] ============================================================
+[2025-11-26 01:53:09] [INFO] [__main__] SISTEMA DE EXTRACCIÓN DE DATOS - MONITOREO AMBIENTAL
+[2025-11-26 01:53:09] [INFO] [__main__] Base de datos: SQLite (plug and play)
+[2025-11-26 01:53:09] [INFO] [__main__] ============================================================
+[2025-11-26 01:53:09] [INFO] [__main__] Inicializando base de datos...
+[2025-11-26 01:53:09] [INFO] [config.database] Base de datos inicializada exitosamente
+[2025-11-26 01:53:09] [INFO] [__main__] ✓ Base de datos inicializada exitosamente
+[2025-11-26 01:53:09] [INFO] [__main__]   Ubicación: data/monitoreo_ambiental.db
+[2025-11-26 01:53:09] [INFO] [__main__]   Tablas creadas: 13
+[2025-11-26 01:53:09] [INFO] [__main__]     - auditoria_extraccion
+[2025-11-26 01:53:09] [INFO] [__main__]     - centros
+[2025-11-26 01:53:09] [INFO] [__main__]     - config_valores_default
+[2025-11-26 01:53:09] [INFO] [__main__]     - log_procesamiento
+[2025-11-26 01:53:09] [INFO] [__main__]     - ordenes_trabajo
+[2025-11-26 01:53:09] [INFO] [__main__]     - oxigeno_mediciones
+[2025-11-26 01:53:09] [INFO] [__main__]     - oxigeno_perfiles
+[2025-11-26 01:53:09] [INFO] [__main__]     - registro_visual_abundancia
+[2025-11-26 01:53:09] [INFO] [__main__]     - registro_visual_transectas
+[2025-11-26 01:53:09] [INFO] [__main__]     - sedimento_estaciones
+[2025-11-26 01:53:09] [INFO] [__main__]     - sedimento_materia_organica
+[2025-11-26 01:53:09] [INFO] [__main__]     - sedimento_ph_redox
+[2025-11-26 01:53:09] [INFO] [__main__]     - sqlite_sequence
+[2025-11-26 01:53:21] [INFO] [__main__] ============================================================
+[2025-11-26 01:53:21] [INFO] [__main__] SISTEMA DE EXTRACCIÓN DE DATOS - MONITOREO AMBIENTAL
+[2025-11-26 01:53:21] [INFO] [__main__] Base de datos: SQLite (plug and play)
+[2025-11-26 01:53:21] [INFO] [__main__] ============================================================
+[2025-11-26 01:53:21] [INFO] [__main__] 
+============================================================
+[2025-11-26 01:53:21] [INFO] [__main__] Procesando: OT 1319 -EJEMPLO PDF SEDIMENTO_Censurado (1).pdf
+[2025-11-26 01:53:21] [INFO] [__main__] ============================================================
+[2025-11-26 01:53:21] [INFO] [utils.pdf_parser] Código OT extraído: 1319
+[2025-11-26 01:53:21] [WARNING] [utils.pdf_parser] No se pudo extraer fecha de muestreo
+[2025-11-26 01:53:21] [INFO] [utils.pdf_parser] Tipo de informe: SEDIMENTO
+[2025-11-26 01:53:21] [INFO] [__main__] Tipo de informe: SEDIMENTO
+[2025-11-26 01:53:21] [INFO] [extractors.sedimento_extractor] Iniciando extracción de sedimento: data/pdfs/OT 1319 -EJEMPLO PDF SEDIMENTO_Censurado (1).pdf
+[2025-11-26 01:53:21] [INFO] [extractors.sedimento_extractor] Tipo de monitoreo: INFA-POST
+[2025-11-26 01:53:21] [INFO] [extractors.sedimento_extractor] Extraídas 8 mediciones de MOT
+[2025-11-26 01:53:21] [INFO] [extractors.sedimento_extractor] Extraídas 16 mediciones de pH/Redox
+[2025-11-26 01:53:21] [INFO] [extractors.sedimento_extractor] Centro AERÓBICO: 0 incumplimientos (umbral: 3)
+[2025-11-26 01:53:21] [INFO] [extractors.sedimento_extractor] Extracción completada: 8 estaciones, 8 mediciones MOT, 16 mediciones pH/Redox
+[2025-11-26 01:53:21] [INFO] [__main__] Validación exitosa
+[2025-11-26 01:53:21] [INFO] [__main__] Cargando OT 1319 a base de datos...
+[2025-11-26 01:53:21] [INFO] [config.database] Centro creado: CENS_1319 (ID: 1, censurado: True)
+[2025-11-26 01:53:21] [ERROR] [config.database] Transacción revertida (rollback): CHECK constraint failed: tipo_monitoreo IN ('INFA', 'INFA-POSTANAEROBICA', 'CPS')
+[2025-11-26 01:53:21] [ERROR] [config.database] Error de conexión SQLite: CHECK constraint failed: tipo_monitoreo IN ('INFA', 'INFA-POSTANAEROBICA', 'CPS')
+[2025-11-26 01:53:21] [ERROR] [__main__] Error cargando a BD: CHECK constraint failed: tipo_monitoreo IN ('INFA', 'INFA-POSTANAEROBICA', 'CPS')
+Traceback (most recent call last):
+  File "/home/satoshi/MonitoreoAmbiental/main.py", line 182, in _load_to_database
+    ot_id = db.insert_with_identity('ordenes_trabajo', ot_data)
+  File "/home/satoshi/MonitoreoAmbiental/config/database.py", line 225, in insert_with_identity
+    cursor.execute(query, values)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+sqlite3.IntegrityError: CHECK constraint failed: tipo_monitoreo IN ('INFA', 'INFA-POSTANAEROBICA', 'CPS')
+[2025-11-26 01:53:21] [INFO] [__main__] Procesamiento completado en 0.36 segundos
+[2025-11-26 01:55:21] [INFO] [__main__] ============================================================
+[2025-11-26 01:55:21] [INFO] [__main__] SISTEMA DE EXTRACCIÓN DE DATOS - MONITOREO AMBIENTAL
+[2025-11-26 01:55:21] [INFO] [__main__] Base de datos: SQLite (plug and play)
+[2025-11-26 01:55:21] [INFO] [__main__] ============================================================
+[2025-11-26 01:55:21] [INFO] [__main__] 
+============================================================
+[2025-11-26 01:55:21] [INFO] [__main__] Procesando: OT 1319 -EJEMPLO PDF SEDIMENTO_Censurado (1).pdf
+[2025-11-26 01:55:21] [INFO] [__main__] ============================================================
+[2025-11-26 01:55:21] [INFO] [utils.pdf_parser] Código OT extraído: 1319
+[2025-11-26 01:55:21] [WARNING] [utils.pdf_parser] No se pudo extraer fecha de muestreo
+[2025-11-26 01:55:21] [INFO] [utils.pdf_parser] Tipo de informe: SEDIMENTO
+[2025-11-26 01:55:21] [INFO] [__main__] Tipo de informe: SEDIMENTO
+[2025-11-26 01:55:21] [INFO] [extractors.sedimento_extractor] Iniciando extracción de sedimento: data/pdfs/OT 1319 -EJEMPLO PDF SEDIMENTO_Censurado (1).pdf
+[2025-11-26 01:55:21] [INFO] [extractors.sedimento_extractor] Tipo de monitoreo: INFA-POSTANAEROBICA
+[2025-11-26 01:55:21] [INFO] [extractors.sedimento_extractor] Extraídas 8 mediciones de MOT
+[2025-11-26 01:55:21] [INFO] [extractors.sedimento_extractor] Extraídas 16 mediciones de pH/Redox
+[2025-11-26 01:55:21] [INFO] [extractors.sedimento_extractor] Centro AERÓBICO: 0 incumplimientos (umbral: 3)
+[2025-11-26 01:55:21] [INFO] [extractors.sedimento_extractor] Extracción completada: 8 estaciones, 8 mediciones MOT, 16 mediciones pH/Redox
+[2025-11-26 01:55:21] [INFO] [__main__] Validación exitosa
+[2025-11-26 01:55:21] [INFO] [__main__] Cargando OT 1319 a base de datos...
+[2025-11-26 01:55:21] [ERROR] [config.database] Transacción revertida (rollback): CHECK constraint failed: condicion_centro IN ('AEROBICO', 'ANAEROBICO')
+[2025-11-26 01:55:21] [ERROR] [config.database] Error de conexión SQLite: CHECK constraint failed: condicion_centro IN ('AEROBICO', 'ANAEROBICO')
+[2025-11-26 01:55:21] [ERROR] [__main__] Error cargando a BD: CHECK constraint failed: condicion_centro IN ('AEROBICO', 'ANAEROBICO')
+Traceback (most recent call last):
+  File "/home/satoshi/MonitoreoAmbiental/main.py", line 182, in _load_to_database
+    ot_id = db.insert_with_identity('ordenes_trabajo', ot_data)
+  File "/home/satoshi/MonitoreoAmbiental/config/database.py", line 225, in insert_with_identity
+    cursor.execute(query, values)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+sqlite3.IntegrityError: CHECK constraint failed: condicion_centro IN ('AEROBICO', 'ANAEROBICO')
+[2025-11-26 01:55:21] [INFO] [__main__] Procesamiento completado en 0.36 segundos
+[2025-11-26 01:56:15] [INFO] [__main__] ============================================================
+[2025-11-26 01:56:15] [INFO] [__main__] SISTEMA DE EXTRACCIÓN DE DATOS - MONITOREO AMBIENTAL
+[2025-11-26 01:56:15] [INFO] [__main__] Base de datos: SQLite (plug and play)
+[2025-11-26 01:56:15] [INFO] [__main__] ============================================================
+[2025-11-26 01:56:15] [INFO] [__main__] 
+============================================================
+[2025-11-26 01:56:15] [INFO] [__main__] Procesando: OT 1319 -EJEMPLO PDF SEDIMENTO_Censurado (1).pdf
+[2025-11-26 01:56:15] [INFO] [__main__] ============================================================
+[2025-11-26 01:56:15] [INFO] [utils.pdf_parser] Código OT extraído: 1319
+[2025-11-26 01:56:15] [WARNING] [utils.pdf_parser] No se pudo extraer fecha de muestreo
+[2025-11-26 01:56:15] [INFO] [utils.pdf_parser] Tipo de informe: SEDIMENTO
+[2025-11-26 01:56:15] [INFO] [__main__] Tipo de informe: SEDIMENTO
+[2025-11-26 01:56:15] [INFO] [extractors.sedimento_extractor] Iniciando extracción de sedimento: data/pdfs/OT 1319 -EJEMPLO PDF SEDIMENTO_Censurado (1).pdf
+[2025-11-26 01:56:15] [INFO] [extractors.sedimento_extractor] Tipo de monitoreo: INFA-POSTANAEROBICA
+[2025-11-26 01:56:15] [INFO] [extractors.sedimento_extractor] Extraídas 8 mediciones de MOT
+[2025-11-26 01:56:15] [INFO] [extractors.sedimento_extractor] Extraídas 16 mediciones de pH/Redox
+[2025-11-26 01:56:15] [INFO] [extractors.sedimento_extractor] Centro AERÓBICO: 0 incumplimientos (umbral: 3)
+[2025-11-26 01:56:15] [INFO] [extractors.sedimento_extractor] Extracción completada: 8 estaciones, 8 mediciones MOT, 16 mediciones pH/Redox
+[2025-11-26 01:56:15] [INFO] [__main__] Validación exitosa
+[2025-11-26 01:56:15] [INFO] [__main__] Cargando OT 1319 a base de datos...
+[2025-11-26 01:56:15] [INFO] [__main__] OT creada con ID: 1
+[2025-11-26 01:56:15] [INFO] [__main__] Cargadas 8 estaciones
+[2025-11-26 01:56:15] [INFO] [__main__] Cargadas 8 mediciones MOT
+[2025-11-26 01:56:15] [ERROR] [__main__] Error cargando a BD: tuple indices must be integers or slices, not str
+Traceback (most recent call last):
+  File "/home/satoshi/MonitoreoAmbiental/main.py", line 187, in _load_to_database
+    self._load_sedimento_data(ot_id, data)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "/home/satoshi/MonitoreoAmbiental/main.py", line 285, in _load_sedimento_data
+    existing[0]['ph_redox_id'])
+    ~~~~~~~~~~~^^^^^^^^^^^^^^^
+TypeError: tuple indices must be integers or slices, not str
+[2025-11-26 01:56:15] [INFO] [__main__] Procesamiento completado en 0.39 segundos
+[2025-11-26 01:57:08] [INFO] [__main__] ============================================================
+[2025-11-26 01:57:08] [INFO] [__main__] SISTEMA DE EXTRACCIÓN DE DATOS - MONITOREO AMBIENTAL
+[2025-11-26 01:57:08] [INFO] [__main__] Base de datos: SQLite (plug and play)
+[2025-11-26 01:57:08] [INFO] [__main__] ============================================================
+[2025-11-26 01:57:08] [INFO] [__main__] 
+============================================================
+[2025-11-26 01:57:08] [INFO] [__main__] Procesando: OT 1319 -EJEMPLO PDF SEDIMENTO_Censurado (1).pdf
+[2025-11-26 01:57:08] [INFO] [__main__] ============================================================
+[2025-11-26 01:57:08] [INFO] [utils.pdf_parser] Código OT extraído: 1319
+[2025-11-26 01:57:08] [WARNING] [utils.pdf_parser] No se pudo extraer fecha de muestreo
+[2025-11-26 01:57:08] [INFO] [utils.pdf_parser] Tipo de informe: SEDIMENTO
+[2025-11-26 01:57:08] [INFO] [__main__] Tipo de informe: SEDIMENTO
+[2025-11-26 01:57:08] [INFO] [extractors.sedimento_extractor] Iniciando extracción de sedimento: data/pdfs/OT 1319 -EJEMPLO PDF SEDIMENTO_Censurado (1).pdf
+[2025-11-26 01:57:08] [INFO] [extractors.sedimento_extractor] Tipo de monitoreo: INFA-POSTANAEROBICA
+[2025-11-26 01:57:08] [INFO] [extractors.sedimento_extractor] Extraídas 8 mediciones de MOT
+[2025-11-26 01:57:08] [INFO] [extractors.sedimento_extractor] Extraídas 16 mediciones de pH/Redox
+[2025-11-26 01:57:08] [INFO] [extractors.sedimento_extractor] Centro AERÓBICO: 0 incumplimientos (umbral: 3)
+[2025-11-26 01:57:08] [INFO] [extractors.sedimento_extractor] Extracción completada: 8 estaciones, 8 mediciones MOT, 16 mediciones pH/Redox
+[2025-11-26 01:57:08] [INFO] [__main__] Validación exitosa
+[2025-11-26 01:57:08] [INFO] [__main__] Cargando OT 1319 a base de datos...
+[2025-11-26 01:57:08] [WARNING] [__main__] OT 1319 ya existe en BD (estrategia: SKIP)
+[2025-11-26 01:57:08] [INFO] [__main__] Procesamiento completado en 0.36 segundos
+[2025-11-26 01:57:46] [INFO] [__main__] ============================================================
+[2025-11-26 01:57:46] [INFO] [__main__] SISTEMA DE EXTRACCIÓN DE DATOS - MONITOREO AMBIENTAL
+[2025-11-26 01:57:46] [INFO] [__main__] Base de datos: SQLite (plug and play)
+[2025-11-26 01:57:46] [INFO] [__main__] ============================================================
+[2025-11-26 01:57:46] [INFO] [__main__] Inicializando base de datos...
+[2025-11-26 01:57:46] [INFO] [config.database] Base de datos inicializada exitosamente
+[2025-11-26 01:57:46] [INFO] [__main__] ✓ Base de datos inicializada exitosamente
+[2025-11-26 01:57:46] [INFO] [__main__]   Ubicación: data/monitoreo_ambiental.db
+[2025-11-26 01:57:46] [INFO] [__main__]   Tablas creadas: 13
+[2025-11-26 01:57:46] [INFO] [__main__]     - auditoria_extraccion
+[2025-11-26 01:57:46] [INFO] [__main__]     - centros
+[2025-11-26 01:57:46] [INFO] [__main__]     - config_valores_default
+[2025-11-26 01:57:46] [INFO] [__main__]     - log_procesamiento
+[2025-11-26 01:57:46] [INFO] [__main__]     - ordenes_trabajo
+[2025-11-26 01:57:46] [INFO] [__main__]     - oxigeno_mediciones
+[2025-11-26 01:57:46] [INFO] [__main__]     - oxigeno_perfiles
+[2025-11-26 01:57:46] [INFO] [__main__]     - registro_visual_abundancia
+[2025-11-26 01:57:46] [INFO] [__main__]     - registro_visual_transectas
+[2025-11-26 01:57:46] [INFO] [__main__]     - sedimento_estaciones
+[2025-11-26 01:57:46] [INFO] [__main__]     - sedimento_materia_organica
+[2025-11-26 01:57:46] [INFO] [__main__]     - sedimento_ph_redox
+[2025-11-26 01:57:46] [INFO] [__main__]     - sqlite_sequence
+[2025-11-26 01:57:46] [INFO] [__main__] ============================================================
+[2025-11-26 01:57:46] [INFO] [__main__] SISTEMA DE EXTRACCIÓN DE DATOS - MONITOREO AMBIENTAL
+[2025-11-26 01:57:46] [INFO] [__main__] Base de datos: SQLite (plug and play)
+[2025-11-26 01:57:46] [INFO] [__main__] ============================================================
+[2025-11-26 01:57:46] [INFO] [__main__] 
+============================================================
+[2025-11-26 01:57:46] [INFO] [__main__] Procesando: OT 1319 -EJEMPLO PDF SEDIMENTO_Censurado (1).pdf
+[2025-11-26 01:57:46] [INFO] [__main__] ============================================================
+[2025-11-26 01:57:46] [INFO] [utils.pdf_parser] Código OT extraído: 1319
+[2025-11-26 01:57:46] [WARNING] [utils.pdf_parser] No se pudo extraer fecha de muestreo
+[2025-11-26 01:57:46] [INFO] [utils.pdf_parser] Tipo de informe: SEDIMENTO
+[2025-11-26 01:57:46] [INFO] [__main__] Tipo de informe: SEDIMENTO
+[2025-11-26 01:57:46] [INFO] [extractors.sedimento_extractor] Iniciando extracción de sedimento: data/pdfs/OT 1319 -EJEMPLO PDF SEDIMENTO_Censurado (1).pdf
+[2025-11-26 01:57:47] [INFO] [extractors.sedimento_extractor] Tipo de monitoreo: INFA-POSTANAEROBICA
+[2025-11-26 01:57:47] [INFO] [extractors.sedimento_extractor] Extraídas 8 mediciones de MOT
+[2025-11-26 01:57:47] [INFO] [extractors.sedimento_extractor] Extraídas 16 mediciones de pH/Redox
+[2025-11-26 01:57:47] [INFO] [extractors.sedimento_extractor] Centro AERÓBICO: 0 incumplimientos (umbral: 3)
+[2025-11-26 01:57:47] [INFO] [extractors.sedimento_extractor] Extracción completada: 8 estaciones, 8 mediciones MOT, 16 mediciones pH/Redox
+[2025-11-26 01:57:47] [INFO] [__main__] Validación exitosa
+[2025-11-26 01:57:47] [INFO] [__main__] Cargando OT 1319 a base de datos...
+[2025-11-26 01:57:47] [INFO] [config.database] Centro creado: CENS_1319 (ID: 1, censurado: True)
+[2025-11-26 01:57:47] [INFO] [__main__] OT creada con ID: 1
+[2025-11-26 01:57:47] [INFO] [__main__] Cargadas 8 estaciones
+[2025-11-26 01:57:47] [INFO] [__main__] Cargadas 8 mediciones MOT
+[2025-11-26 01:57:47] [INFO] [__main__] Cargadas 16 mediciones pH/Redox
+[2025-11-26 01:57:47] [INFO] [__main__] Carga completada exitosamente para OT 1319
+[2025-11-26 01:57:47] [INFO] [__main__] Procesamiento completado en 0.41 segundos
+[2025-11-26 01:59:18] [INFO] [__main__] ============================================================
+[2025-11-26 01:59:18] [INFO] [__main__] SISTEMA DE EXTRACCIÓN DE DATOS - MONITOREO AMBIENTAL
+[2025-11-26 01:59:18] [INFO] [__main__] Base de datos: SQLite (plug and play)
+[2025-11-26 01:59:18] [INFO] [__main__] ============================================================
+[2025-11-26 01:59:18] [INFO] [__main__] Encontrados 9 archivos PDF para procesar
+[2025-11-26 01:59:18] [INFO] [__main__] 
+============================================================
+[2025-11-26 01:59:18] [INFO] [__main__] Procesando: OT 2465 - EJEMPLO SEDIMENTO 3_Censurado.pdf
+[2025-11-26 01:59:18] [INFO] [__main__] ============================================================
+[2025-11-26 01:59:18] [INFO] [utils.pdf_parser] Código OT extraído: 2465
+[2025-11-26 01:59:18] [WARNING] [utils.pdf_parser] No se pudo extraer fecha de muestreo
+[2025-11-26 01:59:18] [INFO] [utils.pdf_parser] Tipo de informe: SEDIMENTO
+[2025-11-26 01:59:18] [INFO] [__main__] Tipo de informe: SEDIMENTO
+[2025-11-26 01:59:18] [INFO] [extractors.sedimento_extractor] Iniciando extracción de sedimento: data/pdfs/OT 2465 - EJEMPLO SEDIMENTO 3_Censurado.pdf
+[2025-11-26 01:59:18] [INFO] [extractors.sedimento_extractor] Tipo de monitoreo: INFA-POSTANAEROBICA
+[2025-11-26 01:59:18] [INFO] [extractors.sedimento_extractor] Extraídas 8 mediciones de MOT
+[2025-11-26 01:59:18] [INFO] [extractors.sedimento_extractor] Extraídas 16 mediciones de pH/Redox
+[2025-11-26 01:59:18] [INFO] [extractors.sedimento_extractor] Centro AERÓBICO: 0 incumplimientos (umbral: 3)
+[2025-11-26 01:59:18] [INFO] [extractors.sedimento_extractor] Extracción completada: 8 estaciones, 8 mediciones MOT, 16 mediciones pH/Redox
+[2025-11-26 01:59:18] [INFO] [__main__] Validación exitosa
+[2025-11-26 01:59:18] [INFO] [__main__] DRY RUN: No se cargó a base de datos
+[2025-11-26 01:59:18] [INFO] [__main__] Procesamiento completado en 0.32 segundos
+[2025-11-26 01:59:18] [INFO] [__main__] 
+============================================================
+[2025-11-26 01:59:18] [INFO] [__main__] Procesando: EJEMPLO OXIGENO 3_Censurado (1).pdf
+[2025-11-26 01:59:18] [INFO] [__main__] ============================================================
+[2025-11-26 01:59:18] [WARNING] [utils.pdf_parser] No se pudo extraer fecha de muestreo
+[2025-11-26 01:59:18] [INFO] [utils.pdf_parser] Tipo de informe: AGUA
+[2025-11-26 01:59:18] [INFO] [__main__] Tipo de informe: AGUA
+[2025-11-26 01:59:18] [WARNING] [__main__] Tipo de informe no soportado aún: AGUA
+[2025-11-26 01:59:18] [INFO] [__main__] 
+============================================================
+[2025-11-26 01:59:18] [INFO] [__main__] Procesando: OT 2524 - EJEMPLO SEDIMENTO 4_Censurado.pdf
+[2025-11-26 01:59:18] [INFO] [__main__] ============================================================
+[2025-11-26 01:59:18] [INFO] [utils.pdf_parser] Código OT extraído: 2524
+[2025-11-26 01:59:18] [WARNING] [utils.pdf_parser] No se pudo extraer fecha de muestreo
+[2025-11-26 01:59:18] [INFO] [utils.pdf_parser] Tipo de informe: SEDIMENTO
+[2025-11-26 01:59:18] [INFO] [__main__] Tipo de informe: SEDIMENTO
+[2025-11-26 01:59:18] [INFO] [extractors.sedimento_extractor] Iniciando extracción de sedimento: data/pdfs/OT 2524 - EJEMPLO SEDIMENTO 4_Censurado.pdf
+[2025-11-26 01:59:18] [INFO] [extractors.sedimento_extractor] Tipo de monitoreo: INFA-POSTANAEROBICA
+[2025-11-26 01:59:18] [INFO] [extractors.sedimento_extractor] Extraídas 8 mediciones de MOT
+[2025-11-26 01:59:18] [INFO] [extractors.sedimento_extractor] Extraídas 16 mediciones de pH/Redox
+[2025-11-26 01:59:18] [INFO] [extractors.sedimento_extractor] Centro AERÓBICO: 0 incumplimientos (umbral: 3)
+[2025-11-26 01:59:18] [INFO] [extractors.sedimento_extractor] Extracción completada: 8 estaciones, 8 mediciones MOT, 16 mediciones pH/Redox
+[2025-11-26 01:59:18] [INFO] [__main__] Validación exitosa
+[2025-11-26 01:59:18] [INFO] [__main__] DRY RUN: No se cargó a base de datos
+[2025-11-26 01:59:18] [INFO] [__main__] Procesamiento completado en 0.33 segundos
+[2025-11-26 01:59:18] [INFO] [__main__] 
+============================================================
+[2025-11-26 01:59:18] [INFO] [__main__] Procesando: OT 634  Informe Técnico v1 EJEMPLO PDF MIXTO_Censurado.pdf
+[2025-11-26 01:59:18] [INFO] [__main__] ============================================================
+[2025-11-26 01:59:18] [INFO] [utils.pdf_parser] Código OT extraído: 634
+[2025-11-26 01:59:18] [WARNING] [utils.pdf_parser] No se pudo extraer fecha de muestreo
+[2025-11-26 01:59:18] [INFO] [utils.pdf_parser] Tipo de informe: DESCONOCIDO
+[2025-11-26 01:59:18] [INFO] [__main__] Tipo de informe: DESCONOCIDO
+[2025-11-26 01:59:18] [WARNING] [__main__] Tipo de informe no soportado aún: DESCONOCIDO
+[2025-11-26 01:59:18] [INFO] [__main__] 
+============================================================
+[2025-11-26 01:59:18] [INFO] [__main__] Procesando: 100219_Cat.3-EJEMPLO SEDIMENTO 6_Censurado.pdf
+[2025-11-26 01:59:18] [INFO] [__main__] ============================================================
+[2025-11-26 01:59:18] [WARNING] [utils.pdf_parser] Código OT extraído del nombre archivo: 10021
+[2025-11-26 01:59:18] [WARNING] [utils.pdf_parser] No se pudo extraer fecha de muestreo
+[2025-11-26 01:59:18] [INFO] [utils.pdf_parser] Tipo de informe: SEDIMENTO
+[2025-11-26 01:59:18] [INFO] [__main__] Tipo de informe: SEDIMENTO
+[2025-11-26 01:59:18] [INFO] [extractors.sedimento_extractor] Iniciando extracción de sedimento: data/pdfs/100219_Cat.3-EJEMPLO SEDIMENTO 6_Censurado.pdf
+[2025-11-26 01:59:18] [WARNING] [extractors.sedimento_extractor] Tipo de monitoreo no detectado, usando default: INFA
+[2025-11-26 01:59:18] [INFO] [extractors.sedimento_extractor] Tipo de monitoreo: INFA
+[2025-11-26 01:59:18] [WARNING] [extractors.sedimento_extractor] No se encontró tabla MOT
+[2025-11-26 01:59:18] [WARNING] [extractors.sedimento_extractor] No se encontró tabla pH/Redox
+[2025-11-26 01:59:18] [INFO] [extractors.sedimento_extractor] Extracción completada: 0 estaciones, 0 mediciones MOT, 0 mediciones pH/Redox
+[2025-11-26 01:59:18] [WARNING] [__main__] No se extrajo ningún dato de MOT
+[2025-11-26 01:59:18] [INFO] [__main__] Validación exitosa
+[2025-11-26 01:59:18] [INFO] [__main__] DRY RUN: No se cargó a base de datos
+[2025-11-26 01:59:18] [INFO] [__main__] Procesamiento completado en 0.01 segundos
+[2025-11-26 01:59:18] [INFO] [__main__] 
+============================================================
+[2025-11-26 01:59:18] [INFO] [__main__] Procesando: OT 2112 - EJEMPLO OXIGENO 1_Censurado.pdf
+[2025-11-26 01:59:18] [INFO] [__main__] ============================================================
+[2025-11-26 01:59:18] [INFO] [utils.pdf_parser] Código OT extraído: 2112
+[2025-11-26 01:59:18] [WARNING] [utils.pdf_parser] No se pudo extraer fecha de muestreo
+[2025-11-26 01:59:18] [INFO] [utils.pdf_parser] Tipo de informe: AGUA
+[2025-11-26 01:59:18] [INFO] [__main__] Tipo de informe: AGUA
+[2025-11-26 01:59:18] [WARNING] [__main__] Tipo de informe no soportado aún: AGUA
+[2025-11-26 01:59:18] [INFO] [__main__] 
+============================================================
+[2025-11-26 01:59:18] [INFO] [__main__] Procesando: OT 1319 -EJEMPLO PDF SEDIMENTO_Censurado (1).pdf
+[2025-11-26 01:59:18] [INFO] [__main__] ============================================================
+[2025-11-26 01:59:18] [INFO] [utils.pdf_parser] Código OT extraído: 1319
+[2025-11-26 01:59:18] [WARNING] [utils.pdf_parser] No se pudo extraer fecha de muestreo
+[2025-11-26 01:59:18] [INFO] [utils.pdf_parser] Tipo de informe: SEDIMENTO
+[2025-11-26 01:59:18] [INFO] [__main__] Tipo de informe: SEDIMENTO
+[2025-11-26 01:59:18] [INFO] [extractors.sedimento_extractor] Iniciando extracción de sedimento: data/pdfs/OT 1319 -EJEMPLO PDF SEDIMENTO_Censurado (1).pdf
+[2025-11-26 01:59:19] [INFO] [extractors.sedimento_extractor] Tipo de monitoreo: INFA-POSTANAEROBICA
+[2025-11-26 01:59:19] [INFO] [extractors.sedimento_extractor] Extraídas 8 mediciones de MOT
+[2025-11-26 01:59:19] [INFO] [extractors.sedimento_extractor] Extraídas 16 mediciones de pH/Redox
+[2025-11-26 01:59:19] [INFO] [extractors.sedimento_extractor] Centro AERÓBICO: 0 incumplimientos (umbral: 3)
+[2025-11-26 01:59:19] [INFO] [extractors.sedimento_extractor] Extracción completada: 8 estaciones, 8 mediciones MOT, 16 mediciones pH/Redox
+[2025-11-26 01:59:19] [INFO] [__main__] Validación exitosa
+[2025-11-26 01:59:19] [INFO] [__main__] DRY RUN: No se cargó a base de datos
+[2025-11-26 01:59:19] [INFO] [__main__] Procesamiento completado en 0.34 segundos
+[2025-11-26 01:59:19] [INFO] [__main__] 
+============================================================
+[2025-11-26 01:59:19] [INFO] [__main__] Procesando: OT 1464 -EJEMPLO PDF SEDIMENTO 3_Censurado.pdf
+[2025-11-26 01:59:19] [INFO] [__main__] ============================================================
+[2025-11-26 01:59:19] [INFO] [utils.pdf_parser] Código OT extraído: 1464
+[2025-11-26 01:59:19] [WARNING] [utils.pdf_parser] No se pudo extraer fecha de muestreo
+[2025-11-26 01:59:19] [INFO] [utils.pdf_parser] Tipo de informe: SEDIMENTO
+[2025-11-26 01:59:19] [INFO] [__main__] Tipo de informe: SEDIMENTO
+[2025-11-26 01:59:19] [INFO] [extractors.sedimento_extractor] Iniciando extracción de sedimento: data/pdfs/OT 1464 -EJEMPLO PDF SEDIMENTO 3_Censurado.pdf
+[2025-11-26 01:59:19] [INFO] [extractors.sedimento_extractor] Tipo de monitoreo: INFA-POSTANAEROBICA
+[2025-11-26 01:59:19] [INFO] [extractors.sedimento_extractor] Extraídas 8 mediciones de MOT
+[2025-11-26 01:59:19] [INFO] [extractors.sedimento_extractor] Extraídas 16 mediciones de pH/Redox
+[2025-11-26 01:59:19] [INFO] [extractors.sedimento_extractor] Centro AERÓBICO: 0 incumplimientos (umbral: 3)
+[2025-11-26 01:59:19] [INFO] [extractors.sedimento_extractor] Extracción completada: 8 estaciones, 8 mediciones MOT, 16 mediciones pH/Redox
+[2025-11-26 01:59:19] [INFO] [__main__] Validación exitosa
+[2025-11-26 01:59:19] [INFO] [__main__] DRY RUN: No se cargó a base de datos
+[2025-11-26 01:59:19] [INFO] [__main__] Procesamiento completado en 0.28 segundos
+[2025-11-26 01:59:19] [INFO] [__main__] 
+============================================================
+[2025-11-26 01:59:19] [INFO] [__main__] Procesando: OT 1509 - EJEMPLO REGISTRO VISUAL 1_Censurado.pdf
+[2025-11-26 01:59:19] [INFO] [__main__] ============================================================
+[2025-11-26 01:59:19] [INFO] [utils.pdf_parser] Código OT extraído: 1509
+[2025-11-26 01:59:19] [WARNING] [utils.pdf_parser] No se pudo extraer fecha de muestreo
+[2025-11-26 01:59:19] [INFO] [utils.pdf_parser] Tipo de informe: VISUAL
+[2025-11-26 01:59:19] [INFO] [__main__] Tipo de informe: VISUAL
+[2025-11-26 01:59:19] [WARNING] [__main__] Tipo de informe no soportado aún: VISUAL
+[2025-11-26 01:59:19] [INFO] [__main__] 
+============================================================
+[2025-11-26 01:59:19] [INFO] [__main__] RESUMEN DE PROCESAMIENTO
+[2025-11-26 01:59:19] [INFO] [__main__] ============================================================
+[2025-11-26 01:59:19] [INFO] [__main__] Total de archivos:  9
+[2025-11-26 01:59:19] [INFO] [__main__] Exitosos:           5
+[2025-11-26 01:59:19] [INFO] [__main__] Fallidos:           4
+[2025-11-26 01:59:19] [INFO] [__main__] Tasa de éxito:      55.6%
+[2025-11-26 01:59:19] [INFO] [__main__] ============================================================
+[2025-11-26 02:08:37] [INFO] [__main__] ============================================================
+[2025-11-26 02:08:37] [INFO] [__main__] SISTEMA DE EXTRACCIÓN DE DATOS - MONITOREO AMBIENTAL
+[2025-11-26 02:08:37] [INFO] [__main__] Base de datos: SQLite (plug and play)
+[2025-11-26 02:08:37] [INFO] [__main__] ============================================================
+[2025-11-26 02:08:37] [INFO] [__main__] Encontrados 9 archivos PDF para procesar
+[2025-11-26 02:08:37] [INFO] [__main__] 
+============================================================
+[2025-11-26 02:08:37] [INFO] [__main__] Procesando: OT 2465 - EJEMPLO SEDIMENTO 3_Censurado.pdf
+[2025-11-26 02:08:37] [INFO] [__main__] ============================================================
+[2025-11-26 02:08:37] [INFO] [utils.pdf_parser] Código OT extraído: 2465
+[2025-11-26 02:08:37] [INFO] [utils.pdf_parser] Tipo de informe: SEDIMENTO
+[2025-11-26 02:08:37] [INFO] [__main__] Tipo de informe: SEDIMENTO
+[2025-11-26 02:08:37] [INFO] [extractors.sedimento_extractor] Iniciando extracción de sedimento: data/pdfs/OT 2465 - EJEMPLO SEDIMENTO 3_Censurado.pdf
+[2025-11-26 02:08:37] [INFO] [extractors.sedimento_extractor] Tipo de monitoreo: INFA-POSTANAEROBICA
+[2025-11-26 02:08:37] [INFO] [extractors.sedimento_extractor] Extraídas 8 mediciones de MOT
+[2025-11-26 02:08:37] [INFO] [extractors.sedimento_extractor] Extraídas 16 mediciones de pH/Redox
+[2025-11-26 02:08:37] [INFO] [extractors.sedimento_extractor] Centro AERÓBICO: 0 incumplimientos (umbral: 3)
+[2025-11-26 02:08:37] [INFO] [extractors.sedimento_extractor] Extracción completada: 8 estaciones, 8 mediciones MOT, 16 mediciones pH/Redox
+[2025-11-26 02:08:37] [INFO] [__main__] Validación exitosa
+[2025-11-26 02:08:37] [INFO] [__main__] DRY RUN: No se cargó a base de datos
+[2025-11-26 02:08:37] [INFO] [__main__] Procesamiento completado en 0.38 segundos
+[2025-11-26 02:08:37] [INFO] [__main__] 
+============================================================
+[2025-11-26 02:08:37] [INFO] [__main__] Procesando: EJEMPLO OXIGENO 3_Censurado (1).pdf
+[2025-11-26 02:08:37] [INFO] [__main__] ============================================================
+[2025-11-26 02:08:37] [INFO] [utils.pdf_parser] Tipo de informe: AGUA
+[2025-11-26 02:08:37] [INFO] [__main__] Tipo de informe: AGUA
+[2025-11-26 02:08:37] [WARNING] [__main__] Tipo de informe no soportado aún: AGUA
+[2025-11-26 02:08:37] [INFO] [__main__] 
+============================================================
+[2025-11-26 02:08:37] [INFO] [__main__] Procesando: OT 2524 - EJEMPLO SEDIMENTO 4_Censurado.pdf
+[2025-11-26 02:08:37] [INFO] [__main__] ============================================================
+[2025-11-26 02:08:37] [INFO] [utils.pdf_parser] Código OT extraído: 2524
+[2025-11-26 02:08:37] [INFO] [utils.pdf_parser] Tipo de informe: SEDIMENTO
+[2025-11-26 02:08:37] [INFO] [__main__] Tipo de informe: SEDIMENTO
+[2025-11-26 02:08:37] [INFO] [extractors.sedimento_extractor] Iniciando extracción de sedimento: data/pdfs/OT 2524 - EJEMPLO SEDIMENTO 4_Censurado.pdf
+[2025-11-26 02:08:38] [INFO] [extractors.sedimento_extractor] Tipo de monitoreo: INFA-POSTANAEROBICA
+[2025-11-26 02:08:38] [INFO] [extractors.sedimento_extractor] Extraídas 8 mediciones de MOT
+[2025-11-26 02:08:38] [INFO] [extractors.sedimento_extractor] Extraídas 16 mediciones de pH/Redox
+[2025-11-26 02:08:38] [INFO] [extractors.sedimento_extractor] Centro AERÓBICO: 0 incumplimientos (umbral: 3)
+[2025-11-26 02:08:38] [INFO] [extractors.sedimento_extractor] Extracción completada: 8 estaciones, 8 mediciones MOT, 16 mediciones pH/Redox
+[2025-11-26 02:08:38] [INFO] [__main__] Validación exitosa
+[2025-11-26 02:08:38] [INFO] [__main__] DRY RUN: No se cargó a base de datos
+[2025-11-26 02:08:38] [INFO] [__main__] Procesamiento completado en 0.39 segundos
+[2025-11-26 02:08:38] [INFO] [__main__] 
+============================================================
+[2025-11-26 02:08:38] [INFO] [__main__] Procesando: OT 634  Informe Técnico v1 EJEMPLO PDF MIXTO_Censurado.pdf
+[2025-11-26 02:08:38] [INFO] [__main__] ============================================================
+[2025-11-26 02:08:38] [INFO] [utils.pdf_parser] Código OT extraído: 634
+[2025-11-26 02:08:38] [INFO] [utils.pdf_parser] Tipo de informe: DESCONOCIDO
+[2025-11-26 02:08:38] [INFO] [__main__] Tipo de informe: DESCONOCIDO
+[2025-11-26 02:08:38] [WARNING] [__main__] Tipo de informe no soportado aún: DESCONOCIDO
+[2025-11-26 02:08:38] [INFO] [__main__] 
+============================================================
+[2025-11-26 02:08:38] [INFO] [__main__] Procesando: 100219_Cat.3-EJEMPLO SEDIMENTO 6_Censurado.pdf
+[2025-11-26 02:08:38] [INFO] [__main__] ============================================================
+[2025-11-26 02:08:38] [WARNING] [utils.pdf_parser] Código OT extraído del nombre archivo: 10021
+[2025-11-26 02:08:38] [INFO] [utils.pdf_parser] Tipo de informe: SEDIMENTO
+[2025-11-26 02:08:38] [INFO] [__main__] Tipo de informe: SEDIMENTO
+[2025-11-26 02:08:38] [INFO] [extractors.sedimento_extractor] Iniciando extracción de sedimento: data/pdfs/100219_Cat.3-EJEMPLO SEDIMENTO 6_Censurado.pdf
+[2025-11-26 02:08:38] [WARNING] [extractors.sedimento_extractor] Tipo de monitoreo no detectado, usando default: INFA
+[2025-11-26 02:08:38] [INFO] [extractors.sedimento_extractor] Tipo de monitoreo: INFA
+[2025-11-26 02:08:38] [WARNING] [extractors.sedimento_extractor] No se encontró tabla MOT
+[2025-11-26 02:08:38] [WARNING] [extractors.sedimento_extractor] No se encontró tabla pH/Redox
+[2025-11-26 02:08:38] [INFO] [extractors.sedimento_extractor] Extracción completada: 0 estaciones, 0 mediciones MOT, 0 mediciones pH/Redox
+[2025-11-26 02:08:38] [WARNING] [__main__] No se extrajo ningún dato de MOT
+[2025-11-26 02:08:38] [INFO] [__main__] Validación exitosa
+[2025-11-26 02:08:38] [INFO] [__main__] DRY RUN: No se cargó a base de datos
+[2025-11-26 02:08:38] [INFO] [__main__] Procesamiento completado en 0.01 segundos
+[2025-11-26 02:08:38] [INFO] [__main__] 
+============================================================
+[2025-11-26 02:08:38] [INFO] [__main__] Procesando: OT 2112 - EJEMPLO OXIGENO 1_Censurado.pdf
+[2025-11-26 02:08:38] [INFO] [__main__] ============================================================
+[2025-11-26 02:08:38] [INFO] [utils.pdf_parser] Código OT extraído: 2112
+[2025-11-26 02:08:38] [INFO] [utils.pdf_parser] Tipo de informe: SEDIMENTO
+[2025-11-26 02:08:38] [INFO] [__main__] Tipo de informe: SEDIMENTO
+[2025-11-26 02:08:38] [INFO] [extractors.sedimento_extractor] Iniciando extracción de sedimento: data/pdfs/OT 2112 - EJEMPLO OXIGENO 1_Censurado.pdf
+[2025-11-26 02:08:38] [INFO] [extractors.sedimento_extractor] Tipo de monitoreo: INFA-POSTANAEROBICA
+[2025-11-26 02:08:38] [INFO] [extractors.sedimento_extractor] Extraídas 0 mediciones de MOT
+[2025-11-26 02:08:38] [WARNING] [extractors.sedimento_extractor] No se encontró tabla pH/Redox
+[2025-11-26 02:08:38] [INFO] [extractors.sedimento_extractor] Extracción completada: 0 estaciones, 0 mediciones MOT, 0 mediciones pH/Redox
+[2025-11-26 02:08:38] [WARNING] [__main__] No se extrajo ningún dato de MOT
+[2025-11-26 02:08:38] [INFO] [__main__] Validación exitosa
+[2025-11-26 02:08:38] [INFO] [__main__] DRY RUN: No se cargó a base de datos
+[2025-11-26 02:08:38] [INFO] [__main__] Procesamiento completado en 0.48 segundos
+[2025-11-26 02:08:38] [INFO] [__main__] 
+============================================================
+[2025-11-26 02:08:38] [INFO] [__main__] Procesando: OT 1319 -EJEMPLO PDF SEDIMENTO_Censurado (1).pdf
+[2025-11-26 02:08:38] [INFO] [__main__] ============================================================
+[2025-11-26 02:08:38] [INFO] [utils.pdf_parser] Código OT extraído: 1319
+[2025-11-26 02:08:38] [INFO] [utils.pdf_parser] Tipo de informe: SEDIMENTO
+[2025-11-26 02:08:38] [INFO] [__main__] Tipo de informe: SEDIMENTO
+[2025-11-26 02:08:38] [INFO] [extractors.sedimento_extractor] Iniciando extracción de sedimento: data/pdfs/OT 1319 -EJEMPLO PDF SEDIMENTO_Censurado (1).pdf
+[2025-11-26 02:08:39] [INFO] [extractors.sedimento_extractor] Tipo de monitoreo: INFA-POSTANAEROBICA
+[2025-11-26 02:08:39] [INFO] [extractors.sedimento_extractor] Extraídas 8 mediciones de MOT
+[2025-11-26 02:08:39] [INFO] [extractors.sedimento_extractor] Extraídas 16 mediciones de pH/Redox
+[2025-11-26 02:08:39] [INFO] [extractors.sedimento_extractor] Centro AERÓBICO: 0 incumplimientos (umbral: 3)
+[2025-11-26 02:08:39] [INFO] [extractors.sedimento_extractor] Extracción completada: 8 estaciones, 8 mediciones MOT, 16 mediciones pH/Redox
+[2025-11-26 02:08:39] [INFO] [__main__] Validación exitosa
+[2025-11-26 02:08:39] [INFO] [__main__] DRY RUN: No se cargó a base de datos
+[2025-11-26 02:08:39] [INFO] [__main__] Procesamiento completado en 0.39 segundos
+[2025-11-26 02:08:39] [INFO] [__main__] 
+============================================================
+[2025-11-26 02:08:39] [INFO] [__main__] Procesando: OT 1464 -EJEMPLO PDF SEDIMENTO 3_Censurado.pdf
+[2025-11-26 02:08:39] [INFO] [__main__] ============================================================
+[2025-11-26 02:08:39] [INFO] [utils.pdf_parser] Código OT extraído: 1464
+[2025-11-26 02:08:39] [INFO] [utils.pdf_parser] Tipo de informe: SEDIMENTO
+[2025-11-26 02:08:39] [INFO] [__main__] Tipo de informe: SEDIMENTO
+[2025-11-26 02:08:39] [INFO] [extractors.sedimento_extractor] Iniciando extracción de sedimento: data/pdfs/OT 1464 -EJEMPLO PDF SEDIMENTO 3_Censurado.pdf
+[2025-11-26 02:08:39] [INFO] [extractors.sedimento_extractor] Tipo de monitoreo: INFA-POSTANAEROBICA
+[2025-11-26 02:08:39] [INFO] [extractors.sedimento_extractor] Extraídas 8 mediciones de MOT
+[2025-11-26 02:08:39] [INFO] [extractors.sedimento_extractor] Extraídas 16 mediciones de pH/Redox
+[2025-11-26 02:08:39] [INFO] [extractors.sedimento_extractor] Centro AERÓBICO: 0 incumplimientos (umbral: 3)
+[2025-11-26 02:08:39] [INFO] [extractors.sedimento_extractor] Extracción completada: 8 estaciones, 8 mediciones MOT, 16 mediciones pH/Redox
+[2025-11-26 02:08:39] [INFO] [__main__] Validación exitosa
+[2025-11-26 02:08:39] [INFO] [__main__] DRY RUN: No se cargó a base de datos
+[2025-11-26 02:08:39] [INFO] [__main__] Procesamiento completado en 0.32 segundos
+[2025-11-26 02:08:39] [INFO] [__main__] 
+============================================================
+[2025-11-26 02:08:39] [INFO] [__main__] Procesando: OT 1509 - EJEMPLO REGISTRO VISUAL 1_Censurado.pdf
+[2025-11-26 02:08:39] [INFO] [__main__] ============================================================
+[2025-11-26 02:08:39] [INFO] [utils.pdf_parser] Código OT extraído: 1509
+[2025-11-26 02:08:39] [INFO] [utils.pdf_parser] Tipo de informe: SEDIMENTO
+[2025-11-26 02:08:39] [INFO] [__main__] Tipo de informe: SEDIMENTO
+[2025-11-26 02:08:39] [INFO] [extractors.sedimento_extractor] Iniciando extracción de sedimento: data/pdfs/OT 1509 - EJEMPLO REGISTRO VISUAL 1_Censurado.pdf
+[2025-11-26 02:08:39] [INFO] [extractors.sedimento_extractor] Tipo de monitoreo: INFA-POSTANAEROBICA
+[2025-11-26 02:08:39] [WARNING] [extractors.sedimento_extractor] No se encontró tabla MOT
+[2025-11-26 02:08:39] [WARNING] [extractors.sedimento_extractor] No se encontró tabla pH/Redox
+[2025-11-26 02:08:39] [INFO] [extractors.sedimento_extractor] Extracción completada: 0 estaciones, 0 mediciones MOT, 0 mediciones pH/Redox
+[2025-11-26 02:08:39] [WARNING] [__main__] No se extrajo ningún dato de MOT
+[2025-11-26 02:08:39] [INFO] [__main__] Validación exitosa
+[2025-11-26 02:08:39] [INFO] [__main__] DRY RUN: No se cargó a base de datos
+[2025-11-26 02:08:39] [INFO] [__main__] Procesamiento completado en 0.45 segundos
+[2025-11-26 02:08:39] [INFO] [__main__] 
+============================================================
+[2025-11-26 02:08:39] [INFO] [__main__] RESUMEN DE PROCESAMIENTO
+[2025-11-26 02:08:39] [INFO] [__main__] ============================================================
+[2025-11-26 02:08:39] [INFO] [__main__] Total de archivos:  9
+[2025-11-26 02:08:39] [INFO] [__main__] Exitosos:           7
+[2025-11-26 02:08:39] [INFO] [__main__] Fallidos:           2
+[2025-11-26 02:08:39] [INFO] [__main__] Tasa de éxito:      77.8%
+[2025-11-26 02:08:39] [INFO] [__main__] ============================================================
+[2025-11-26 02:10:25] [INFO] [__main__] ============================================================
+[2025-11-26 02:10:25] [INFO] [__main__] SISTEMA DE EXTRACCIÓN DE DATOS - MONITOREO AMBIENTAL
+[2025-11-26 02:10:25] [INFO] [__main__] Base de datos: SQLite (plug and play)
+[2025-11-26 02:10:25] [INFO] [__main__] ============================================================
+[2025-11-26 02:10:25] [INFO] [__main__] Encontrados 9 archivos PDF para procesar
+[2025-11-26 02:10:25] [INFO] [__main__] 
+============================================================
+[2025-11-26 02:10:25] [INFO] [__main__] Procesando: OT 2465 - EJEMPLO SEDIMENTO 3_Censurado.pdf
+[2025-11-26 02:10:25] [INFO] [__main__] ============================================================
+[2025-11-26 02:10:25] [INFO] [utils.pdf_parser] Código OT extraído: 2465
+[2025-11-26 02:10:25] [INFO] [utils.pdf_parser] Tipo de informe: SEDIMENTO
+[2025-11-26 02:10:25] [INFO] [__main__] Tipo de informe: SEDIMENTO
+[2025-11-26 02:10:25] [INFO] [extractors.sedimento_extractor] Iniciando extracción de sedimento: data/pdfs/OT 2465 - EJEMPLO SEDIMENTO 3_Censurado.pdf
+[2025-11-26 02:10:26] [INFO] [extractors.sedimento_extractor] Tipo de monitoreo: INFA-POSTANAEROBICA
+[2025-11-26 02:10:26] [INFO] [extractors.sedimento_extractor] Extraídas 8 mediciones de MOT
+[2025-11-26 02:10:26] [INFO] [extractors.sedimento_extractor] Extraídas 16 mediciones de pH/Redox
+[2025-11-26 02:10:26] [INFO] [extractors.sedimento_extractor] Centro AERÓBICO: 0 incumplimientos (umbral: 3)
+[2025-11-26 02:10:26] [INFO] [extractors.sedimento_extractor] Extracción completada: 8 estaciones, 8 mediciones MOT, 16 mediciones pH/Redox
+[2025-11-26 02:10:26] [INFO] [__main__] Validación exitosa
+[2025-11-26 02:10:26] [INFO] [__main__] DRY RUN: No se cargó a base de datos
+[2025-11-26 02:10:26] [INFO] [__main__] Procesamiento completado en 0.38 segundos
+[2025-11-26 02:10:26] [INFO] [__main__] 
+============================================================
+[2025-11-26 02:10:26] [INFO] [__main__] Procesando: EJEMPLO OXIGENO 3_Censurado (1).pdf
+[2025-11-26 02:10:26] [INFO] [__main__] ============================================================
+[2025-11-26 02:10:26] [INFO] [utils.pdf_parser] Tipo de informe: AGUA
+[2025-11-26 02:10:26] [INFO] [__main__] Tipo de informe: AGUA
+[2025-11-26 02:10:26] [WARNING] [__main__] Tipo de informe no soportado aún: AGUA
+[2025-11-26 02:10:26] [INFO] [__main__] 
+============================================================
+[2025-11-26 02:10:26] [INFO] [__main__] Procesando: OT 2524 - EJEMPLO SEDIMENTO 4_Censurado.pdf
+[2025-11-26 02:10:26] [INFO] [__main__] ============================================================
+[2025-11-26 02:10:26] [INFO] [utils.pdf_parser] Código OT extraído: 2524
+[2025-11-26 02:10:26] [INFO] [utils.pdf_parser] Tipo de informe: AGUA
+[2025-11-26 02:10:26] [INFO] [__main__] Tipo de informe: AGUA
+[2025-11-26 02:10:26] [WARNING] [__main__] Tipo de informe no soportado aún: AGUA
+[2025-11-26 02:10:26] [INFO] [__main__] 
+============================================================
+[2025-11-26 02:10:26] [INFO] [__main__] Procesando: OT 634  Informe Técnico v1 EJEMPLO PDF MIXTO_Censurado.pdf
+[2025-11-26 02:10:26] [INFO] [__main__] ============================================================
+[2025-11-26 02:10:26] [INFO] [utils.pdf_parser] Código OT extraído: 634
+[2025-11-26 02:10:26] [INFO] [utils.pdf_parser] Tipo de informe: DESCONOCIDO
+[2025-11-26 02:10:26] [INFO] [__main__] Tipo de informe: DESCONOCIDO
+[2025-11-26 02:10:26] [WARNING] [__main__] Tipo de informe no soportado aún: DESCONOCIDO
+[2025-11-26 02:10:26] [INFO] [__main__] 
+============================================================
+[2025-11-26 02:10:26] [INFO] [__main__] Procesando: 100219_Cat.3-EJEMPLO SEDIMENTO 6_Censurado.pdf
+[2025-11-26 02:10:26] [INFO] [__main__] ============================================================
+[2025-11-26 02:10:26] [WARNING] [utils.pdf_parser] Código OT extraído del nombre archivo: 10021
+[2025-11-26 02:10:26] [INFO] [utils.pdf_parser] Tipo de informe: SEDIMENTO
+[2025-11-26 02:10:26] [INFO] [__main__] Tipo de informe: SEDIMENTO
+[2025-11-26 02:10:26] [INFO] [extractors.sedimento_extractor] Iniciando extracción de sedimento: data/pdfs/100219_Cat.3-EJEMPLO SEDIMENTO 6_Censurado.pdf
+[2025-11-26 02:10:26] [WARNING] [extractors.sedimento_extractor] Tipo de monitoreo no detectado, usando default: INFA
+[2025-11-26 02:10:26] [INFO] [extractors.sedimento_extractor] Tipo de monitoreo: INFA
+[2025-11-26 02:10:26] [WARNING] [extractors.sedimento_extractor] No se encontró tabla MOT
+[2025-11-26 02:10:26] [WARNING] [extractors.sedimento_extractor] No se encontró tabla pH/Redox
+[2025-11-26 02:10:26] [INFO] [extractors.sedimento_extractor] Extracción completada: 0 estaciones, 0 mediciones MOT, 0 mediciones pH/Redox
+[2025-11-26 02:10:26] [WARNING] [__main__] No se extrajo ningún dato de MOT
+[2025-11-26 02:10:26] [INFO] [__main__] Validación exitosa
+[2025-11-26 02:10:26] [INFO] [__main__] DRY RUN: No se cargó a base de datos
+[2025-11-26 02:10:26] [INFO] [__main__] Procesamiento completado en 0.01 segundos
+[2025-11-26 02:10:26] [INFO] [__main__] 
+============================================================
+[2025-11-26 02:10:26] [INFO] [__main__] Procesando: OT 2112 - EJEMPLO OXIGENO 1_Censurado.pdf
+[2025-11-26 02:10:26] [INFO] [__main__] ============================================================
+[2025-11-26 02:10:26] [INFO] [utils.pdf_parser] Código OT extraído: 2112
+[2025-11-26 02:10:26] [INFO] [utils.pdf_parser] Tipo de informe: AGUA
+[2025-11-26 02:10:26] [INFO] [__main__] Tipo de informe: AGUA
+[2025-11-26 02:10:26] [WARNING] [__main__] Tipo de informe no soportado aún: AGUA
+[2025-11-26 02:10:26] [INFO] [__main__] 
+============================================================
+[2025-11-26 02:10:26] [INFO] [__main__] Procesando: OT 1319 -EJEMPLO PDF SEDIMENTO_Censurado (1).pdf
+[2025-11-26 02:10:26] [INFO] [__main__] ============================================================
+[2025-11-26 02:10:26] [INFO] [utils.pdf_parser] Código OT extraído: 1319
+[2025-11-26 02:10:26] [INFO] [utils.pdf_parser] Tipo de informe: SEDIMENTO
+[2025-11-26 02:10:26] [INFO] [__main__] Tipo de informe: SEDIMENTO
+[2025-11-26 02:10:26] [INFO] [extractors.sedimento_extractor] Iniciando extracción de sedimento: data/pdfs/OT 1319 -EJEMPLO PDF SEDIMENTO_Censurado (1).pdf
+[2025-11-26 02:10:26] [INFO] [extractors.sedimento_extractor] Tipo de monitoreo: INFA-POSTANAEROBICA
+[2025-11-26 02:10:26] [INFO] [extractors.sedimento_extractor] Extraídas 8 mediciones de MOT
+[2025-11-26 02:10:26] [INFO] [extractors.sedimento_extractor] Extraídas 16 mediciones de pH/Redox
+[2025-11-26 02:10:26] [INFO] [extractors.sedimento_extractor] Centro AERÓBICO: 0 incumplimientos (umbral: 3)
+[2025-11-26 02:10:26] [INFO] [extractors.sedimento_extractor] Extracción completada: 8 estaciones, 8 mediciones MOT, 16 mediciones pH/Redox
+[2025-11-26 02:10:26] [INFO] [__main__] Validación exitosa
+[2025-11-26 02:10:26] [INFO] [__main__] DRY RUN: No se cargó a base de datos
+[2025-11-26 02:10:26] [INFO] [__main__] Procesamiento completado en 0.35 segundos
+[2025-11-26 02:10:26] [INFO] [__main__] 
+============================================================
+[2025-11-26 02:10:26] [INFO] [__main__] Procesando: OT 1464 -EJEMPLO PDF SEDIMENTO 3_Censurado.pdf
+[2025-11-26 02:10:26] [INFO] [__main__] ============================================================
+[2025-11-26 02:10:26] [INFO] [utils.pdf_parser] Código OT extraído: 1464
+[2025-11-26 02:10:26] [INFO] [utils.pdf_parser] Tipo de informe: SEDIMENTO
+[2025-11-26 02:10:26] [INFO] [__main__] Tipo de informe: SEDIMENTO
+[2025-11-26 02:10:26] [INFO] [extractors.sedimento_extractor] Iniciando extracción de sedimento: data/pdfs/OT 1464 -EJEMPLO PDF SEDIMENTO 3_Censurado.pdf
+[2025-11-26 02:10:26] [INFO] [extractors.sedimento_extractor] Tipo de monitoreo: INFA-POSTANAEROBICA
+[2025-11-26 02:10:26] [INFO] [extractors.sedimento_extractor] Extraídas 8 mediciones de MOT
+[2025-11-26 02:10:26] [INFO] [extractors.sedimento_extractor] Extraídas 16 mediciones de pH/Redox
+[2025-11-26 02:10:26] [INFO] [extractors.sedimento_extractor] Centro AERÓBICO: 0 incumplimientos (umbral: 3)
+[2025-11-26 02:10:26] [INFO] [extractors.sedimento_extractor] Extracción completada: 8 estaciones, 8 mediciones MOT, 16 mediciones pH/Redox
+[2025-11-26 02:10:26] [INFO] [__main__] Validación exitosa
+[2025-11-26 02:10:26] [INFO] [__main__] DRY RUN: No se cargó a base de datos
+[2025-11-26 02:10:26] [INFO] [__main__] Procesamiento completado en 0.33 segundos
+[2025-11-26 02:10:26] [INFO] [__main__] 
+============================================================
+[2025-11-26 02:10:26] [INFO] [__main__] Procesando: OT 1509 - EJEMPLO REGISTRO VISUAL 1_Censurado.pdf
+[2025-11-26 02:10:26] [INFO] [__main__] ============================================================
+[2025-11-26 02:10:26] [INFO] [utils.pdf_parser] Código OT extraído: 1509
+[2025-11-26 02:10:27] [INFO] [utils.pdf_parser] Tipo de informe: VISUAL
+[2025-11-26 02:10:27] [INFO] [__main__] Tipo de informe: VISUAL
+[2025-11-26 02:10:27] [WARNING] [__main__] Tipo de informe no soportado aún: VISUAL
+[2025-11-26 02:10:27] [INFO] [__main__] 
+============================================================
+[2025-11-26 02:10:27] [INFO] [__main__] RESUMEN DE PROCESAMIENTO
+[2025-11-26 02:10:27] [INFO] [__main__] ============================================================
+[2025-11-26 02:10:27] [INFO] [__main__] Total de archivos:  9
+[2025-11-26 02:10:27] [INFO] [__main__] Exitosos:           4
+[2025-11-26 02:10:27] [INFO] [__main__] Fallidos:           5
+[2025-11-26 02:10:27] [INFO] [__main__] Tasa de éxito:      44.4%
+[2025-11-26 02:10:27] [INFO] [__main__] ============================================================
+[2025-11-26 02:11:43] [INFO] [__main__] ============================================================
+[2025-11-26 02:11:43] [INFO] [__main__] SISTEMA DE EXTRACCIÓN DE DATOS - MONITOREO AMBIENTAL
+[2025-11-26 02:11:43] [INFO] [__main__] Base de datos: SQLite (plug and play)
+[2025-11-26 02:11:43] [INFO] [__main__] ============================================================
+[2025-11-26 02:11:43] [INFO] [__main__] Inicializando base de datos...
+[2025-11-26 02:11:43] [INFO] [config.database] Base de datos inicializada exitosamente
+[2025-11-26 02:11:43] [INFO] [__main__] ✓ Base de datos inicializada exitosamente
+[2025-11-26 02:11:43] [INFO] [__main__]   Ubicación: data/monitoreo_ambiental.db
+[2025-11-26 02:11:43] [INFO] [__main__]   Tablas creadas: 13
+[2025-11-26 02:11:43] [INFO] [__main__]     - auditoria_extraccion
+[2025-11-26 02:11:43] [INFO] [__main__]     - centros
+[2025-11-26 02:11:43] [INFO] [__main__]     - config_valores_default
+[2025-11-26 02:11:43] [INFO] [__main__]     - log_procesamiento
+[2025-11-26 02:11:43] [INFO] [__main__]     - ordenes_trabajo
+[2025-11-26 02:11:43] [INFO] [__main__]     - oxigeno_mediciones
+[2025-11-26 02:11:43] [INFO] [__main__]     - oxigeno_perfiles
+[2025-11-26 02:11:43] [INFO] [__main__]     - registro_visual_abundancia
+[2025-11-26 02:11:43] [INFO] [__main__]     - registro_visual_transectas
+[2025-11-26 02:11:43] [INFO] [__main__]     - sedimento_estaciones
+[2025-11-26 02:11:43] [INFO] [__main__]     - sedimento_materia_organica
+[2025-11-26 02:11:43] [INFO] [__main__]     - sedimento_ph_redox
+[2025-11-26 02:11:43] [INFO] [__main__]     - sqlite_sequence
+[2025-11-26 02:11:44] [INFO] [__main__] ============================================================
+[2025-11-26 02:11:44] [INFO] [__main__] SISTEMA DE EXTRACCIÓN DE DATOS - MONITOREO AMBIENTAL
+[2025-11-26 02:11:44] [INFO] [__main__] Base de datos: SQLite (plug and play)
+[2025-11-26 02:11:44] [INFO] [__main__] ============================================================
+[2025-11-26 02:11:44] [INFO] [__main__] 
+============================================================
+[2025-11-26 02:11:44] [INFO] [__main__] Procesando: OT 2465 - EJEMPLO SEDIMENTO 3_Censurado.pdf
+[2025-11-26 02:11:44] [INFO] [__main__] ============================================================
+[2025-11-26 02:11:44] [INFO] [utils.pdf_parser] Código OT extraído: 2465
+[2025-11-26 02:11:44] [INFO] [utils.pdf_parser] Tipo de informe: SEDIMENTO
+[2025-11-26 02:11:44] [INFO] [__main__] Tipo de informe: SEDIMENTO
+[2025-11-26 02:11:44] [INFO] [extractors.sedimento_extractor] Iniciando extracción de sedimento: data/pdfs/OT 2465 - EJEMPLO SEDIMENTO 3_Censurado.pdf
+[2025-11-26 02:11:44] [INFO] [extractors.sedimento_extractor] Tipo de monitoreo: INFA-POSTANAEROBICA
+[2025-11-26 02:11:44] [INFO] [extractors.sedimento_extractor] Extraídas 8 mediciones de MOT
+[2025-11-26 02:11:44] [INFO] [extractors.sedimento_extractor] Extraídas 16 mediciones de pH/Redox
+[2025-11-26 02:11:44] [INFO] [extractors.sedimento_extractor] Centro AERÓBICO: 0 incumplimientos (umbral: 3)
+[2025-11-26 02:11:44] [INFO] [extractors.sedimento_extractor] Extracción completada: 8 estaciones, 8 mediciones MOT, 16 mediciones pH/Redox
+[2025-11-26 02:11:44] [INFO] [__main__] Validación exitosa
+[2025-11-26 02:11:44] [INFO] [__main__] Cargando OT 2465 a base de datos...
+[2025-11-26 02:11:44] [INFO] [config.database] Centro creado: CENS_2465 (ID: 1, censurado: True)
+[2025-11-26 02:11:44] [INFO] [__main__] OT creada con ID: 1
+[2025-11-26 02:11:44] [INFO] [__main__] Cargadas 8 estaciones
+[2025-11-26 02:11:44] [INFO] [__main__] Cargadas 8 mediciones MOT
+[2025-11-26 02:11:44] [INFO] [__main__] Cargadas 16 mediciones pH/Redox
+[2025-11-26 02:11:44] [INFO] [__main__] Carga completada exitosamente para OT 2465
+[2025-11-26 02:11:44] [INFO] [__main__] Procesamiento completado en 0.44 segundos
+[2025-11-26 02:11:44] [INFO] [__main__] ============================================================
+[2025-11-26 02:11:44] [INFO] [__main__] SISTEMA DE EXTRACCIÓN DE DATOS - MONITOREO AMBIENTAL
+[2025-11-26 02:11:44] [INFO] [__main__] Base de datos: SQLite (plug and play)
+[2025-11-26 02:11:44] [INFO] [__main__] ============================================================
+[2025-11-26 02:11:44] [INFO] [__main__] 
+============================================================
+[2025-11-26 02:11:44] [INFO] [__main__] Procesando: OT 1319 -EJEMPLO PDF SEDIMENTO_Censurado (1).pdf
+[2025-11-26 02:11:44] [INFO] [__main__] ============================================================
+[2025-11-26 02:11:44] [INFO] [utils.pdf_parser] Código OT extraído: 1319
+[2025-11-26 02:11:44] [INFO] [utils.pdf_parser] Tipo de informe: SEDIMENTO
+[2025-11-26 02:11:44] [INFO] [__main__] Tipo de informe: SEDIMENTO
+[2025-11-26 02:11:44] [INFO] [extractors.sedimento_extractor] Iniciando extracción de sedimento: data/pdfs/OT 1319 -EJEMPLO PDF SEDIMENTO_Censurado (1).pdf
+[2025-11-26 02:11:45] [INFO] [extractors.sedimento_extractor] Tipo de monitoreo: INFA-POSTANAEROBICA
+[2025-11-26 02:11:45] [INFO] [extractors.sedimento_extractor] Extraídas 8 mediciones de MOT
+[2025-11-26 02:11:45] [INFO] [extractors.sedimento_extractor] Extraídas 16 mediciones de pH/Redox
+[2025-11-26 02:11:45] [INFO] [extractors.sedimento_extractor] Centro AERÓBICO: 0 incumplimientos (umbral: 3)
+[2025-11-26 02:11:45] [INFO] [extractors.sedimento_extractor] Extracción completada: 8 estaciones, 8 mediciones MOT, 16 mediciones pH/Redox
+[2025-11-26 02:11:45] [INFO] [__main__] Validación exitosa
+[2025-11-26 02:11:45] [INFO] [__main__] Cargando OT 1319 a base de datos...
+[2025-11-26 02:11:45] [INFO] [config.database] Centro creado: CENS_1319 (ID: 2, censurado: True)
+[2025-11-26 02:11:45] [INFO] [__main__] OT creada con ID: 2
+[2025-11-26 02:11:45] [INFO] [__main__] Cargadas 8 estaciones
+[2025-11-26 02:11:45] [INFO] [__main__] Cargadas 8 mediciones MOT
+[2025-11-26 02:11:45] [INFO] [__main__] Cargadas 16 mediciones pH/Redox
+[2025-11-26 02:11:45] [INFO] [__main__] Carga completada exitosamente para OT 1319
+[2025-11-26 02:11:45] [INFO] [__main__] Procesamiento completado en 0.41 segundos
+[2025-11-26 02:11:45] [INFO] [__main__] ============================================================
+[2025-11-26 02:11:45] [INFO] [__main__] SISTEMA DE EXTRACCIÓN DE DATOS - MONITOREO AMBIENTAL
+[2025-11-26 02:11:45] [INFO] [__main__] Base de datos: SQLite (plug and play)
+[2025-11-26 02:11:45] [INFO] [__main__] ============================================================
+[2025-11-26 02:11:45] [INFO] [__main__] 
+============================================================
+[2025-11-26 02:11:45] [INFO] [__main__] Procesando: OT 1464 -EJEMPLO PDF SEDIMENTO 3_Censurado.pdf
+[2025-11-26 02:11:45] [INFO] [__main__] ============================================================
+[2025-11-26 02:11:45] [INFO] [utils.pdf_parser] Código OT extraído: 1464
+[2025-11-26 02:11:45] [INFO] [utils.pdf_parser] Tipo de informe: SEDIMENTO
+[2025-11-26 02:11:45] [INFO] [__main__] Tipo de informe: SEDIMENTO
+[2025-11-26 02:11:45] [INFO] [extractors.sedimento_extractor] Iniciando extracción de sedimento: data/pdfs/OT 1464 -EJEMPLO PDF SEDIMENTO 3_Censurado.pdf
+[2025-11-26 02:11:45] [INFO] [extractors.sedimento_extractor] Tipo de monitoreo: INFA-POSTANAEROBICA
+[2025-11-26 02:11:45] [INFO] [extractors.sedimento_extractor] Extraídas 8 mediciones de MOT
+[2025-11-26 02:11:45] [INFO] [extractors.sedimento_extractor] Extraídas 16 mediciones de pH/Redox
+[2025-11-26 02:11:45] [INFO] [extractors.sedimento_extractor] Centro AERÓBICO: 0 incumplimientos (umbral: 3)
+[2025-11-26 02:11:45] [INFO] [extractors.sedimento_extractor] Extracción completada: 8 estaciones, 8 mediciones MOT, 16 mediciones pH/Redox
+[2025-11-26 02:11:45] [INFO] [__main__] Validación exitosa
+[2025-11-26 02:11:45] [INFO] [__main__] Cargando OT 1464 a base de datos...
+[2025-11-26 02:11:45] [INFO] [config.database] Centro creado: CENS_1464 (ID: 3, censurado: True)
+[2025-11-26 02:11:45] [INFO] [__main__] OT creada con ID: 3
+[2025-11-26 02:11:45] [INFO] [__main__] Cargadas 8 estaciones
+[2025-11-26 02:11:45] [INFO] [__main__] Cargadas 8 mediciones MOT
+[2025-11-26 02:11:45] [INFO] [__main__] Cargadas 16 mediciones pH/Redox
+[2025-11-26 02:11:45] [INFO] [__main__] Carga completada exitosamente para OT 1464
+[2025-11-26 02:11:45] [INFO] [__main__] Procesamiento completado en 0.39 segundos
+[2025-11-26 02:11:46] [INFO] [__main__] ============================================================
+[2025-11-26 02:11:46] [INFO] [__main__] SISTEMA DE EXTRACCIÓN DE DATOS - MONITOREO AMBIENTAL
+[2025-11-26 02:11:46] [INFO] [__main__] Base de datos: SQLite (plug and play)
+[2025-11-26 02:11:46] [INFO] [__main__] ============================================================
+[2025-11-26 02:11:46] [INFO] [__main__] 
+============================================================
+[2025-11-26 02:11:46] [INFO] [__main__] Procesando: 100219_Cat.3-EJEMPLO SEDIMENTO 6_Censurado.pdf
+[2025-11-26 02:11:46] [INFO] [__main__] ============================================================
+[2025-11-26 02:11:46] [WARNING] [utils.pdf_parser] Código OT extraído del nombre archivo: 10021
+[2025-11-26 02:11:46] [INFO] [utils.pdf_parser] Tipo de informe: SEDIMENTO
+[2025-11-26 02:11:46] [INFO] [__main__] Tipo de informe: SEDIMENTO
+[2025-11-26 02:11:46] [INFO] [extractors.sedimento_extractor] Iniciando extracción de sedimento: data/pdfs/100219_Cat.3-EJEMPLO SEDIMENTO 6_Censurado.pdf
+[2025-11-26 02:11:46] [WARNING] [extractors.sedimento_extractor] Tipo de monitoreo no detectado, usando default: INFA
+[2025-11-26 02:11:46] [INFO] [extractors.sedimento_extractor] Tipo de monitoreo: INFA
+[2025-11-26 02:11:46] [WARNING] [extractors.sedimento_extractor] No se encontró tabla MOT
+[2025-11-26 02:11:46] [WARNING] [extractors.sedimento_extractor] No se encontró tabla pH/Redox
+[2025-11-26 02:11:46] [INFO] [extractors.sedimento_extractor] Extracción completada: 0 estaciones, 0 mediciones MOT, 0 mediciones pH/Redox
+[2025-11-26 02:11:46] [WARNING] [__main__] No se extrajo ningún dato de MOT
+[2025-11-26 02:11:46] [INFO] [__main__] Validación exitosa
+[2025-11-26 02:11:46] [INFO] [__main__] Cargando OT 10021 a base de datos...
+[2025-11-26 02:11:46] [INFO] [config.database] Centro creado: CENS_10021 (ID: 4, censurado: True)
+[2025-11-26 02:11:46] [INFO] [__main__] OT creada con ID: 4
+[2025-11-26 02:11:46] [INFO] [__main__] Carga completada exitosamente para OT 10021
+[2025-11-26 02:11:46] [INFO] [__main__] Procesamiento completado en 0.02 segundos
+[2025-11-26 16:39:25] [INFO] [__main__] ============================================================
+[2025-11-26 16:39:25] [INFO] [__main__] 🚀 SISTEMA DE EXTRACCIÓN DE DATOS - MONITOREO AMBIENTAL
+[2025-11-26 16:39:25] [INFO] [__main__] 📦 Base de datos: SQLite (plug and play)
+[2025-11-26 16:39:25] [INFO] [__main__] ============================================================
+[2025-11-26 16:39:25] [INFO] [__main__] 
+============================================================
+[2025-11-26 16:39:25] [INFO] [__main__] Procesando: OT 2465 - EJEMPLO SEDIMENTO 3_Censurado.pdf
+[2025-11-26 16:39:25] [INFO] [__main__] ============================================================
+[2025-11-26 16:39:25] [INFO] [__main__] 📋 Extrayendo metadatos...
+[2025-11-26 16:39:25] [WARNING] [extractors.metadata_extractor] ⚠️ No se pudo extraer condición del centro
+[2025-11-26 16:39:25] [WARNING] [extractors.metadata_extractor] ⚠️ OT 2465 - EJEMPLO SEDIMENTO 3_Censurado.pdf - Metadatos faltantes: codigo_centro, categoria, tipo_monitoreo, fecha_ingreso, condicion_centro
+[2025-11-26 16:39:25] [INFO] [extractors.metadata_extractor] Metadatos extraídos:
+[2025-11-26 16:39:25] [INFO] [extractors.metadata_extractor]   OT: 2465
+[2025-11-26 16:39:25] [INFO] [extractors.metadata_extractor]   Centro: None
+[2025-11-26 16:39:25] [INFO] [extractors.metadata_extractor]   Categoría: None
+[2025-11-26 16:39:25] [INFO] [extractors.metadata_extractor]   Tipo: None
+[2025-11-26 16:39:25] [INFO] [extractors.metadata_extractor]   Condición: None
+[2025-11-26 16:39:25] [INFO] [__main__] 📄 Tipo de informe: SEDIMENTO
+[2025-11-26 16:39:25] [INFO] [__main__] 🧪 Ejecutando extractor de sedimento...
+[2025-11-26 16:39:25] [INFO] [extractors.sedimento_extractor] 📄 Extrayendo sedimento: OT 2465 - EJEMPLO SEDIMENTO 3_Censurado.pdf
+[2025-11-26 16:39:25] [INFO] [extractors.sedimento_extractor] ✓ Ubicaciones: 8 estaciones
+[2025-11-26 16:39:25] [INFO] [extractors.sedimento_extractor] ✓ MOT: 24 mediciones
+[2025-11-26 16:39:25] [INFO] [extractors.sedimento_extractor] ✓ pH/Redox: 24 mediciones
+[2025-11-26 16:39:25] [INFO] [extractors.sedimento_extractor] 🔴 ANAERÓBICO: MOT=7/8, pH+Eh=0/8 (umbral: 3)
+[2025-11-26 16:39:25] [INFO] [extractors.sedimento_extractor] ============================================================
+[2025-11-26 16:39:25] [INFO] [extractors.sedimento_extractor] ✅ Extracción completada:
+[2025-11-26 16:39:25] [INFO] [extractors.sedimento_extractor]   📍 Ubicaciones: 8
+[2025-11-26 16:39:25] [INFO] [extractors.sedimento_extractor]   🏢 Estaciones: 8
+[2025-11-26 16:39:25] [INFO] [extractors.sedimento_extractor]   🧪 MOT (réplicas): 24
+[2025-11-26 16:39:25] [INFO] [extractors.sedimento_extractor]   ⚗️  pH/Redox (réplicas): 24
+[2025-11-26 16:39:25] [INFO] [extractors.sedimento_extractor]   📊 Estado: True
+[2025-11-26 16:39:25] [INFO] [extractors.sedimento_extractor] ============================================================
+[2025-11-26 16:39:25] [INFO] [__main__] ✅ Validando datos...
+[2025-11-26 16:39:25] [INFO] [__main__] 🔍 DRY RUN: No se cargó a base de datos
+[2025-11-26 16:39:25] [INFO] [__main__] ⏱️  Procesamiento completado en 0.58 segundos
+[2025-11-26 17:00:22] [INFO] [__main__] ============================================================
+[2025-11-26 17:00:22] [INFO] [__main__] 🚀 SISTEMA DE EXTRACCIÓN DE DATOS - MONITOREO AMBIENTAL
+[2025-11-26 17:00:22] [INFO] [__main__] 📦 Base de datos: SQLite (plug and play)
+[2025-11-26 17:00:22] [INFO] [__main__] ============================================================
+[2025-11-26 17:00:22] [INFO] [__main__] 
+============================================================
+[2025-11-26 17:00:22] [INFO] [__main__] 📄 Procesando: OT 2465 - EJEMPLO SEDIMENTO 3_Censurado.pdf
+[2025-11-26 17:00:22] [INFO] [__main__] ============================================================
+[2025-11-26 17:00:22] [INFO] [__main__] 📋 Extrayendo metadatos...
+[2025-11-26 17:00:22] [WARNING] [extractors.metadata_extractor] ⚠️ No se pudo extraer condición del centro
+[2025-11-26 17:00:22] [WARNING] [extractors.metadata_extractor] ⚠️ OT 2465 - EJEMPLO SEDIMENTO 3_Censurado.pdf - Metadatos faltantes: codigo_centro, categoria, tipo_monitoreo, fecha_ingreso, condicion_centro
+[2025-11-26 17:00:22] [INFO] [extractors.metadata_extractor] 📋 Metadatos extraídos:
+[2025-11-26 17:00:22] [INFO] [extractors.metadata_extractor]   OT: 2465
+[2025-11-26 17:00:22] [INFO] [extractors.metadata_extractor]   Centro: None
+[2025-11-26 17:00:22] [INFO] [extractors.metadata_extractor]   Nombre: None
+[2025-11-26 17:00:22] [INFO] [extractors.metadata_extractor]   Categoría: None
+[2025-11-26 17:00:22] [INFO] [extractors.metadata_extractor]   Tipo: None
+[2025-11-26 17:00:22] [INFO] [extractors.metadata_extractor]   Condición: None
+[2025-11-26 17:00:22] [INFO] [extractors.metadata_extractor]   Fecha muestreo: None
+[2025-11-26 17:00:22] [INFO] [extractors.metadata_extractor]   Fecha ingreso: None
+[2025-11-26 17:00:22] [INFO] [__main__] ✅ OT extraído: 2465
+[2025-11-26 17:00:22] [INFO] [__main__] 📊 Tipo de informe: SEDIMENTO
+[2025-11-26 17:00:22] [INFO] [__main__] 🧪 Ejecutando extractor de sedimento...
+[2025-11-26 17:00:22] [INFO] [extractors.sedimento_extractor] 📄 Extrayendo sedimento: OT 2465 - EJEMPLO SEDIMENTO 3_Censurado.pdf
+[2025-11-26 17:00:22] [INFO] [extractors.sedimento_extractor] ✓ Ubicaciones: 8 estaciones
+[2025-11-26 17:00:22] [INFO] [extractors.sedimento_extractor] ✓ MOT: 24 mediciones
+[2025-11-26 17:00:22] [INFO] [extractors.sedimento_extractor] ✓ pH/Redox: 24 mediciones
+[2025-11-26 17:00:22] [INFO] [extractors.sedimento_extractor] 🔴 ANAERÓBICO: MOT=7/8, pH+Eh=0/8 (umbral: 3)
+[2025-11-26 17:00:22] [INFO] [extractors.sedimento_extractor] ============================================================
+[2025-11-26 17:00:22] [INFO] [extractors.sedimento_extractor] ✅ Extracción completada:
+[2025-11-26 17:00:22] [INFO] [extractors.sedimento_extractor]   📍 Ubicaciones: 8
+[2025-11-26 17:00:22] [INFO] [extractors.sedimento_extractor]   🏢 Estaciones: 8
+[2025-11-26 17:00:22] [INFO] [extractors.sedimento_extractor]   🧪 MOT (réplicas): 24
+[2025-11-26 17:00:22] [INFO] [extractors.sedimento_extractor]   ⚗️  pH/Redox (réplicas): 24
+[2025-11-26 17:00:22] [INFO] [extractors.sedimento_extractor]   📊 Estado: True
+[2025-11-26 17:00:22] [INFO] [extractors.sedimento_extractor] ============================================================
+[2025-11-26 17:00:22] [INFO] [__main__] ✅ Validando datos...
+[2025-11-26 17:00:22] [INFO] [__main__] 🔍 DRY RUN: No se cargó a base de datos
+[2025-11-26 17:00:22] [INFO] [__main__]    Registros que se cargarían:
+[2025-11-26 17:00:22] [INFO] [__main__]    - Estaciones: 8
+[2025-11-26 17:00:22] [INFO] [__main__]    - MOT: 24
+[2025-11-26 17:00:22] [INFO] [__main__]    - pH/Redox: 24
+[2025-11-26 17:00:22] [INFO] [__main__] ⏱️ Procesamiento completado en 0.70 segundos
+[2025-11-26 17:00:55] [INFO] [__main__] ============================================================
+[2025-11-26 17:00:55] [INFO] [__main__] 🚀 SISTEMA DE EXTRACCIÓN DE DATOS - MONITOREO AMBIENTAL
+[2025-11-26 17:00:55] [INFO] [__main__] 📦 Base de datos: SQLite (plug and play)
+[2025-11-26 17:00:55] [INFO] [__main__] ============================================================
+[2025-11-26 17:00:55] [INFO] [__main__] 
+============================================================
+[2025-11-26 17:00:55] [INFO] [__main__] 📄 Procesando: OT 2465 - EJEMPLO SEDIMENTO 3_Censurado.pdf
+[2025-11-26 17:00:55] [INFO] [__main__] ============================================================
+[2025-11-26 17:00:55] [INFO] [__main__] 📋 Extrayendo metadatos...
+[2025-11-26 17:00:55] [INFO] [extractors.metadata_extractor] ============================================================
+[2025-11-26 17:00:55] [INFO] [extractors.metadata_extractor] TEXTO PÁGINA 1 (primeros 800 chars):
+[2025-11-26 17:00:55] [INFO] [extractors.metadata_extractor] 
+[2025-11-26 17:00:55] [INFO] [extractors.metadata_extractor] ============================================================
+[2025-11-26 17:00:55] [WARNING] [extractors.metadata_extractor] ⚠️ Código centro NO encontrado
+[2025-11-26 17:00:55] [INFO] [extractors.metadata_extractor]   Línea con 'centro': TIPO ESTACIÓN CÓDIGO RÉPLICAS UTM ESTE UTM NORTE PROFUNDIDAD
+[2025-11-26 17:00:55] [INFO] [extractors.metadata_extractor]   Línea con 'centro': CÓDIGO PESO SUBMUESTRA MATERIA ORGÁNICA TOTAL (%) PROMEDIO MOT
+[2025-11-26 17:00:55] [WARNING] [extractors.metadata_extractor] ⚠️ Categoría NO encontrada
+[2025-11-26 17:00:55] [WARNING] [extractors.metadata_extractor] ⚠️ Tipo de monitoreo NO encontrado
+[2025-11-26 17:00:55] [WARNING] [extractors.metadata_extractor] ⚠️ Fecha ingreso NO encontrada
+[2025-11-26 17:00:55] [WARNING] [extractors.metadata_extractor] ⚠️ Fecha muestreo NO encontrada
+[2025-11-26 17:00:55] [WARNING] [extractors.metadata_extractor] ⚠️ No se pudo extraer condición del centro
+[2025-11-26 17:00:55] [WARNING] [extractors.metadata_extractor] ⚠️ OT 2465 - EJEMPLO SEDIMENTO 3_Censurado.pdf - Metadatos faltantes: codigo_centro, categoria, tipo_monitoreo, fecha_ingreso, condicion_centro
+[2025-11-26 17:00:55] [INFO] [extractors.metadata_extractor] 📋 Metadatos extraídos:
+[2025-11-26 17:00:55] [INFO] [extractors.metadata_extractor]   OT: 2465
+[2025-11-26 17:00:55] [INFO] [extractors.metadata_extractor]   Centro: None
+[2025-11-26 17:00:55] [INFO] [extractors.metadata_extractor]   Nombre: None
+[2025-11-26 17:00:55] [INFO] [extractors.metadata_extractor]   Categoría: None
+[2025-11-26 17:00:55] [INFO] [extractors.metadata_extractor]   Tipo: None
+[2025-11-26 17:00:55] [INFO] [extractors.metadata_extractor]   Condición: None
+[2025-11-26 17:00:55] [INFO] [extractors.metadata_extractor]   Fecha muestreo: None
+[2025-11-26 17:00:55] [INFO] [extractors.metadata_extractor]   Fecha ingreso: None
+[2025-11-26 17:00:55] [INFO] [__main__] ✅ OT extraído: 2465
+[2025-11-26 17:00:55] [INFO] [__main__] 📊 Tipo de informe: SEDIMENTO
+[2025-11-26 17:00:55] [INFO] [__main__] 🧪 Ejecutando extractor de sedimento...
+[2025-11-26 17:00:55] [INFO] [extractors.sedimento_extractor] 📄 Extrayendo sedimento: OT 2465 - EJEMPLO SEDIMENTO 3_Censurado.pdf
+[2025-11-26 17:00:55] [INFO] [extractors.sedimento_extractor] ✓ Ubicaciones: 8 estaciones
+[2025-11-26 17:00:55] [INFO] [extractors.sedimento_extractor] ✓ MOT: 24 mediciones
+[2025-11-26 17:00:55] [INFO] [extractors.sedimento_extractor] ✓ pH/Redox: 24 mediciones
+[2025-11-26 17:00:55] [INFO] [extractors.sedimento_extractor] 🔴 ANAERÓBICO: MOT=7/8, pH+Eh=0/8 (umbral: 3)
+[2025-11-26 17:00:55] [INFO] [extractors.sedimento_extractor] ============================================================
+[2025-11-26 17:00:55] [INFO] [extractors.sedimento_extractor] ✅ Extracción completada:
+[2025-11-26 17:00:55] [INFO] [extractors.sedimento_extractor]   📍 Ubicaciones: 8
+[2025-11-26 17:00:55] [INFO] [extractors.sedimento_extractor]   🏢 Estaciones: 8
+[2025-11-26 17:00:55] [INFO] [extractors.sedimento_extractor]   🧪 MOT (réplicas): 24
+[2025-11-26 17:00:55] [INFO] [extractors.sedimento_extractor]   ⚗️  pH/Redox (réplicas): 24
+[2025-11-26 17:00:55] [INFO] [extractors.sedimento_extractor]   📊 Estado: True
+[2025-11-26 17:00:55] [INFO] [extractors.sedimento_extractor] ============================================================
+[2025-11-26 17:00:55] [INFO] [__main__] ✅ Validando datos...
+[2025-11-26 17:00:55] [INFO] [__main__] 🔍 DRY RUN: No se cargó a base de datos
+[2025-11-26 17:00:55] [INFO] [__main__]    Registros que se cargarían:
+[2025-11-26 17:00:55] [INFO] [__main__]    - Estaciones: 8
+[2025-11-26 17:00:55] [INFO] [__main__]    - MOT: 24
+[2025-11-26 17:00:55] [INFO] [__main__]    - pH/Redox: 24
+[2025-11-26 17:00:55] [INFO] [__main__] ⏱️ Procesamiento completado en 0.70 segundos
+[2025-11-26 17:03:05] [INFO] [__main__] ============================================================
+[2025-11-26 17:03:05] [INFO] [__main__] 🚀 SISTEMA DE EXTRACCIÓN DE DATOS - MONITOREO AMBIENTAL
+[2025-11-26 17:03:05] [INFO] [__main__] 📦 Base de datos: SQLite (plug and play)
+[2025-11-26 17:03:05] [INFO] [__main__] ============================================================
+[2025-11-26 17:03:05] [INFO] [__main__] 
+============================================================
+[2025-11-26 17:03:05] [INFO] [__main__] 📄 Procesando: OT 2465 - EJEMPLO SEDIMENTO 3_Censurado.pdf
+[2025-11-26 17:03:05] [INFO] [__main__] ============================================================
+[2025-11-26 17:03:05] [INFO] [__main__] 📋 Extrayendo metadatos...
+[2025-11-26 17:03:05] [INFO] [extractors.metadata_extractor] ============================================================
+[2025-11-26 17:03:05] [INFO] [extractors.metadata_extractor] PÁGINA 1 (primeros 500 chars):
+[2025-11-26 17:03:05] [INFO] [extractors.metadata_extractor] [VACÍA]
+[2025-11-26 17:03:05] [INFO] [extractors.metadata_extractor] ------------------------------------------------------------
+[2025-11-26 17:03:05] [INFO] [extractors.metadata_extractor] PÁGINA 2 (primeros 500 chars):
+[2025-11-26 17:03:05] [INFO] [extractors.metadata_extractor] RL-10
+INFORME DE ENSAYO Área Laboratorio
+Versión 01
+OT 2465
+Enero 2020
+Página 2 de 7
+UBICACIÓN - IDENTIFICACIÓN MUESTRAS
+UTM-WGS 84. HUSO 18S
+TIPO ESTACIÓN CÓDIGO RÉPLICAS UTM ESTE UTM NORTE PROFUNDIDAD
+Sedimento Estación 1 E1 R1,R2,R3 641264 4211354 27,0
+Sedimento Estación 2 E2 R1,R2,R3 641259 4211306 30,0
+Sedimento Estación 3 E3 R1,R2,R3 641242 4211212 40,0
+Sedimento Estación 4 E4 R1,R2,R3 641240 4211164 41,0
+Sedimento Estación 5 E5 R1,R2,R3 641316 4211173 40,0
+Sedimento Estación 6 E6 R1,R2,R3
+[2025-11-26 17:03:05] [INFO] [extractors.metadata_extractor] ------------------------------------------------------------
+[2025-11-26 17:03:05] [INFO] [extractors.metadata_extractor] PÁGINA 3 (primeros 500 chars):
+[2025-11-26 17:03:05] [INFO] [extractors.metadata_extractor] RL-10
+INFORME DE ENSAYO Área Laboratorio
+Versión 01
+OT 2465
+Enero 2020
+Página 3 de 7
+MATERIA ORGÁNICA TOTAL (MOT)
+CÓDIGO PESO SUBMUESTRA MATERIA ORGÁNICA TOTAL (%) PROMEDIO MOT
+E1-R1 10,021 15,95
+E1-R2 10,002 9,11 12,2
+E1-R3 10,030 11,47
+E2-R1 10,030 8,13
+E2-R2 10,005 9,95 8,9
+E2-R3 10,029 8,72
+E3-R1 10,020 8,47
+E3-R2 10,022 11,14 10,4
+E3-R3 10,015 11,65
+E4-R1 10,020 13,60
+E4-R2 10,001 11,69 11,6
+E4-R3 10,028 9,48
+E5-R1 10,007 14,49
+E5-R2 10,004 13,77 15,8
+E5-R3 10,030 19,03
+E6-R1 10,009 49,24
+E
+[2025-11-26 17:03:05] [INFO] [extractors.metadata_extractor] ------------------------------------------------------------
+[2025-11-26 17:03:05] [INFO] [extractors.metadata_extractor] ============================================================
+[2025-11-26 17:03:05] [WARNING] [extractors.metadata_extractor] ⚠️ Categoría NO encontrada
+[2025-11-26 17:03:05] [INFO] [extractors.metadata_extractor] ✓ Tipo monitoreo (pág. 5): 'INFA-POSTANAERÓBICA' -> 'INFA-POSTANAEROBICA'
+[2025-11-26 17:03:05] [WARNING] [extractors.metadata_extractor] ⚠️ Fecha ingreso NO encontrada
+[2025-11-26 17:03:05] [WARNING] [extractors.metadata_extractor] ⚠️ Fecha muestreo NO encontrada
+[2025-11-26 17:03:06] [WARNING] [extractors.metadata_extractor] ⚠️ OT 2465 - EJEMPLO SEDIMENTO 3_Censurado.pdf - Metadatos faltantes: codigo_centro, categoria, fecha_ingreso
+[2025-11-26 17:03:06] [INFO] [extractors.metadata_extractor] 📋 Metadatos extraídos:
+[2025-11-26 17:03:06] [INFO] [extractors.metadata_extractor]   OT: 2465
+[2025-11-26 17:03:06] [INFO] [extractors.metadata_extractor]   Centro: None
+[2025-11-26 17:03:06] [INFO] [extractors.metadata_extractor]   Nombre: None
+[2025-11-26 17:03:06] [INFO] [extractors.metadata_extractor]   Categoría: None
+[2025-11-26 17:03:06] [INFO] [extractors.metadata_extractor]   Tipo: INFA-POSTANAEROBICA
+[2025-11-26 17:03:06] [INFO] [extractors.metadata_extractor]   Condición: ANAEROBICO
+[2025-11-26 17:03:06] [INFO] [extractors.metadata_extractor]   Fecha muestreo: None
+[2025-11-26 17:03:06] [INFO] [extractors.metadata_extractor]   Fecha ingreso: None
+[2025-11-26 17:03:06] [INFO] [__main__] ✅ OT extraído: 2465
+[2025-11-26 17:03:06] [INFO] [__main__] 📊 Tipo de informe: SEDIMENTO
+[2025-11-26 17:03:06] [INFO] [__main__] 🧪 Ejecutando extractor de sedimento...
+[2025-11-26 17:03:06] [INFO] [extractors.sedimento_extractor] 📄 Extrayendo sedimento: OT 2465 - EJEMPLO SEDIMENTO 3_Censurado.pdf
+[2025-11-26 17:03:06] [INFO] [extractors.sedimento_extractor] ✓ Ubicaciones: 8 estaciones
+[2025-11-26 17:03:06] [INFO] [extractors.sedimento_extractor] ✓ MOT: 24 mediciones
+[2025-11-26 17:03:06] [INFO] [extractors.sedimento_extractor] ✓ pH/Redox: 24 mediciones
+[2025-11-26 17:03:06] [INFO] [extractors.sedimento_extractor] 🔴 ANAERÓBICO: MOT=8/8, pH+Eh=0/8 (umbral: 3)
+[2025-11-26 17:03:06] [INFO] [extractors.sedimento_extractor] ============================================================
+[2025-11-26 17:03:06] [INFO] [extractors.sedimento_extractor] ✅ Extracción completada:
+[2025-11-26 17:03:06] [INFO] [extractors.sedimento_extractor]   📍 Ubicaciones: 8
+[2025-11-26 17:03:06] [INFO] [extractors.sedimento_extractor]   🏢 Estaciones: 8
+[2025-11-26 17:03:06] [INFO] [extractors.sedimento_extractor]   🧪 MOT (réplicas): 24
+[2025-11-26 17:03:06] [INFO] [extractors.sedimento_extractor]   ⚗️  pH/Redox (réplicas): 24
+[2025-11-26 17:03:06] [INFO] [extractors.sedimento_extractor]   📊 Estado: True
+[2025-11-26 17:03:06] [INFO] [extractors.sedimento_extractor] ============================================================
+[2025-11-26 17:03:06] [INFO] [__main__] ✅ Validando datos...
+[2025-11-26 17:03:06] [INFO] [__main__] 🔍 DRY RUN: No se cargó a base de datos
+[2025-11-26 17:03:06] [INFO] [__main__]    Registros que se cargarían:
+[2025-11-26 17:03:06] [INFO] [__main__]    - Estaciones: 8
+[2025-11-26 17:03:06] [INFO] [__main__]    - MOT: 24
+[2025-11-26 17:03:06] [INFO] [__main__]    - pH/Redox: 24
+[2025-11-26 17:03:06] [INFO] [__main__] ⏱️ Procesamiento completado en 0.98 segundos
+[2025-11-26 17:21:45] [INFO] [__main__] ============================================================
+[2025-11-26 17:21:45] [INFO] [__main__] 🚀 SISTEMA DE EXTRACCIÓN DE DATOS - MONITOREO AMBIENTAL
+[2025-11-26 17:21:45] [INFO] [__main__] 📦 Base de datos: SQLite (plug and play)
+[2025-11-26 17:21:45] [INFO] [__main__] ============================================================
+[2025-11-26 17:21:45] [INFO] [__main__] 
+============================================================
+[2025-11-26 17:21:45] [INFO] [__main__] 📄 Procesando: OT 2465 - EJEMPLO SEDIMENTO 3_Censurado.pdf
+[2025-11-26 17:21:45] [INFO] [__main__] ============================================================
+[2025-11-26 17:21:45] [INFO] [__main__] 📋 Extrayendo metadatos...
+[2025-11-26 17:21:45] [INFO] [extractors.metadata_extractor] 🔍 Página 1 vacía, intentando OCR...
+[2025-11-26 17:21:45] [INFO] [utils.ocr_metadata_extractor] 📸 Extrayendo texto con OCR de página 1...
+[2025-11-26 17:21:45] [INFO] [utils.ocr_metadata_extractor]   Convirtiendo página 1 a imagen...
+[2025-11-26 17:21:45] [INFO] [utils.ocr_metadata_extractor]   Ejecutando OCR...
+[2025-11-26 17:21:47] [INFO] [utils.ocr_metadata_extractor]   ✓ OCR completado: 1036 caracteres extraídos
+[2025-11-26 17:21:47] [INFO] [utils.ocr_metadata_extractor] ============================================================
+[2025-11-26 17:21:47] [INFO] [utils.ocr_metadata_extractor] TEXTO EXTRAÍDO CON OCR:
+[2025-11-26 17:21:47] [INFO] [utils.ocr_metadata_extractor] RL-10
+INFORME DE ENSAYO Área Laboratorio
+Versión 01
+NS OT 2465 Enero 2020
+Página 1 de 7
+INFORMACION DEL PROYECTO
+ID/Nombre: Wagner 2
+Código centro: 120117
+Categoría: 3
+INFORMACION DEL TERRENO
+Tipo de Monitoreo: INFA Postanaeróbica
+Responsable Terreno: Rodrigo Huanel / Juan Carlos Paredes
+Fecha Inicio/Fin: 05-04-2023
+Hora Inicio/Fin: 14:20 - 19:50
+NÚMERO DE MUESTRAS
+Materia Orgánica: 24
+pH/Redox: 24
+Granulometría: -
+Macrofauna bentónica: -
+Perfiles de la columna de agua: -
+INFORMACION DEL ENSAYO
+
+[2025-11-26 17:21:47] [INFO] [utils.ocr_metadata_extractor] ============================================================
+[2025-11-26 17:21:47] [INFO] [utils.ocr_metadata_extractor]   ✓ Código centro: 120117
+[2025-11-26 17:21:47] [INFO] [utils.ocr_metadata_extractor]   ✓ Nombre centro: Wagner 2
+[2025-11-26 17:21:47] [INFO] [utils.ocr_metadata_extractor]   ✓ Categoría: 3
+[2025-11-26 17:21:47] [INFO] [utils.ocr_metadata_extractor]   ✓ Tipo monitoreo: INFA-POSTANAEROBICA
+[2025-11-26 17:21:47] [INFO] [utils.ocr_metadata_extractor]   ✓ Fecha muestreo: 2023-04-05
+[2025-11-26 17:21:47] [INFO] [utils.ocr_metadata_extractor]   ✓ Fecha ingreso: 2023-04-12
+[2025-11-26 17:21:47] [INFO] [utils.ocr_metadata_extractor] ✅ Metadatos extraídos con OCR:
+[2025-11-26 17:21:47] [INFO] [utils.ocr_metadata_extractor]   codigo_centro: 120117
+[2025-11-26 17:21:47] [INFO] [utils.ocr_metadata_extractor]   nombre_centro: Wagner 2
+[2025-11-26 17:21:47] [INFO] [utils.ocr_metadata_extractor]   categoria: 3
+[2025-11-26 17:21:47] [INFO] [utils.ocr_metadata_extractor]   tipo_monitoreo: INFA-POSTANAEROBICA
+[2025-11-26 17:21:47] [INFO] [utils.ocr_metadata_extractor]   fecha_muestreo: 2023-04-05
+[2025-11-26 17:21:47] [INFO] [utils.ocr_metadata_extractor]   fecha_ingreso: 2023-04-12
+[2025-11-26 17:21:47] [INFO] [extractors.metadata_extractor] ✅ Metadatos extraídos con OCR
+[2025-11-26 17:21:47] [INFO] [extractors.metadata_extractor] ============================================================
+[2025-11-26 17:21:47] [INFO] [extractors.metadata_extractor] PÁGINA 1 (primeros 500 chars):
+[2025-11-26 17:21:47] [INFO] [extractors.metadata_extractor] [VACÍA]
+[2025-11-26 17:21:47] [INFO] [extractors.metadata_extractor] ------------------------------------------------------------
+[2025-11-26 17:21:47] [INFO] [extractors.metadata_extractor] PÁGINA 2 (primeros 500 chars):
+[2025-11-26 17:21:47] [INFO] [extractors.metadata_extractor] RL-10
+INFORME DE ENSAYO Área Laboratorio
+Versión 01
+OT 2465
+Enero 2020
+Página 2 de 7
+UBICACIÓN - IDENTIFICACIÓN MUESTRAS
+UTM-WGS 84. HUSO 18S
+TIPO ESTACIÓN CÓDIGO RÉPLICAS UTM ESTE UTM NORTE PROFUNDIDAD
+Sedimento Estación 1 E1 R1,R2,R3 641264 4211354 27,0
+Sedimento Estación 2 E2 R1,R2,R3 641259 4211306 30,0
+Sedimento Estación 3 E3 R1,R2,R3 641242 4211212 40,0
+Sedimento Estación 4 E4 R1,R2,R3 641240 4211164 41,0
+Sedimento Estación 5 E5 R1,R2,R3 641316 4211173 40,0
+Sedimento Estación 6 E6 R1,R2,R3
+[2025-11-26 17:21:47] [INFO] [extractors.metadata_extractor] ------------------------------------------------------------
+[2025-11-26 17:21:47] [INFO] [extractors.metadata_extractor] PÁGINA 3 (primeros 500 chars):
+[2025-11-26 17:21:47] [INFO] [extractors.metadata_extractor] RL-10
+INFORME DE ENSAYO Área Laboratorio
+Versión 01
+OT 2465
+Enero 2020
+Página 3 de 7
+MATERIA ORGÁNICA TOTAL (MOT)
+CÓDIGO PESO SUBMUESTRA MATERIA ORGÁNICA TOTAL (%) PROMEDIO MOT
+E1-R1 10,021 15,95
+E1-R2 10,002 9,11 12,2
+E1-R3 10,030 11,47
+E2-R1 10,030 8,13
+E2-R2 10,005 9,95 8,9
+E2-R3 10,029 8,72
+E3-R1 10,020 8,47
+E3-R2 10,022 11,14 10,4
+E3-R3 10,015 11,65
+E4-R1 10,020 13,60
+E4-R2 10,001 11,69 11,6
+E4-R3 10,028 9,48
+E5-R1 10,007 14,49
+E5-R2 10,004 13,77 15,8
+E5-R3 10,030 19,03
+E6-R1 10,009 49,24
+E
+[2025-11-26 17:21:47] [INFO] [extractors.metadata_extractor] ------------------------------------------------------------
+[2025-11-26 17:21:47] [INFO] [extractors.metadata_extractor] ============================================================
+[2025-11-26 17:21:47] [WARNING] [extractors.metadata_extractor] ⚠️ Categoría NO encontrada
+[2025-11-26 17:21:47] [INFO] [extractors.metadata_extractor] ✓ Tipo monitoreo (pág. 5): 'INFA-POSTANAERÓBICA' -> 'INFA-POSTANAEROBICA'
+[2025-11-26 17:21:47] [WARNING] [extractors.metadata_extractor] ⚠️ Fecha ingreso NO encontrada
+[2025-11-26 17:21:47] [WARNING] [extractors.metadata_extractor] ⚠️ Fecha muestreo NO encontrada
+[2025-11-26 17:21:47] [WARNING] [extractors.metadata_extractor] ⚠️ OT 2465 - EJEMPLO SEDIMENTO 3_Censurado.pdf - Metadatos faltantes: codigo_centro, categoria, fecha_ingreso
+[2025-11-26 17:21:47] [INFO] [extractors.metadata_extractor] 📋 Metadatos extraídos:
+[2025-11-26 17:21:47] [INFO] [extractors.metadata_extractor]   OT: 2465
+[2025-11-26 17:21:47] [INFO] [extractors.metadata_extractor]   Centro: None
+[2025-11-26 17:21:47] [INFO] [extractors.metadata_extractor]   Nombre: None
+[2025-11-26 17:21:47] [INFO] [extractors.metadata_extractor]   Categoría: None
+[2025-11-26 17:21:47] [INFO] [extractors.metadata_extractor]   Tipo: INFA-POSTANAEROBICA
+[2025-11-26 17:21:47] [INFO] [extractors.metadata_extractor]   Condición: ANAEROBICO
+[2025-11-26 17:21:47] [INFO] [extractors.metadata_extractor]   Fecha muestreo: None
+[2025-11-26 17:21:47] [INFO] [extractors.metadata_extractor]   Fecha ingreso: None
+[2025-11-26 17:21:47] [INFO] [__main__] ✅ OT extraído: 2465
+[2025-11-26 17:21:47] [INFO] [__main__] 📊 Tipo de informe: SEDIMENTO
+[2025-11-26 17:21:47] [INFO] [__main__] 🧪 Ejecutando extractor de sedimento...
+[2025-11-26 17:21:47] [INFO] [extractors.sedimento_extractor] 📄 Extrayendo sedimento: OT 2465 - EJEMPLO SEDIMENTO 3_Censurado.pdf
+[2025-11-26 17:21:47] [INFO] [extractors.sedimento_extractor] ✓ Ubicaciones: 8 estaciones
+[2025-11-26 17:21:47] [INFO] [extractors.sedimento_extractor] ✓ MOT: 24 mediciones
+[2025-11-26 17:21:47] [INFO] [extractors.sedimento_extractor] ✓ pH/Redox: 24 mediciones
+[2025-11-26 17:21:47] [INFO] [extractors.sedimento_extractor] 🔴 ANAERÓBICO: MOT=8/8, pH+Eh=0/8 (umbral: 3)
+[2025-11-26 17:21:47] [INFO] [extractors.sedimento_extractor] ============================================================
+[2025-11-26 17:21:47] [INFO] [extractors.sedimento_extractor] ✅ Extracción completada:
+[2025-11-26 17:21:47] [INFO] [extractors.sedimento_extractor]   📍 Ubicaciones: 8
+[2025-11-26 17:21:47] [INFO] [extractors.sedimento_extractor]   🏢 Estaciones: 8
+[2025-11-26 17:21:47] [INFO] [extractors.sedimento_extractor]   🧪 MOT (réplicas): 24
+[2025-11-26 17:21:47] [INFO] [extractors.sedimento_extractor]   ⚗️  pH/Redox (réplicas): 24
+[2025-11-26 17:21:47] [INFO] [extractors.sedimento_extractor]   📊 Estado: True
+[2025-11-26 17:21:47] [INFO] [extractors.sedimento_extractor] ============================================================
+[2025-11-26 17:21:47] [INFO] [__main__] ✅ Validando datos...
+[2025-11-26 17:21:47] [INFO] [__main__] 🔍 DRY RUN: No se cargó a base de datos
+[2025-11-26 17:21:47] [INFO] [__main__]    Registros que se cargarían:
+[2025-11-26 17:21:47] [INFO] [__main__]    - Estaciones: 8
+[2025-11-26 17:21:47] [INFO] [__main__]    - MOT: 24
+[2025-11-26 17:21:47] [INFO] [__main__]    - pH/Redox: 24
+[2025-11-26 17:21:47] [INFO] [__main__] ⏱️ Procesamiento completado en 2.55 segundos
+[2025-11-26 17:27:23] [INFO] [__main__] ============================================================
+[2025-11-26 17:27:23] [INFO] [__main__] 🚀 SISTEMA DE EXTRACCIÓN DE DATOS - MONITOREO AMBIENTAL
+[2025-11-26 17:27:23] [INFO] [__main__] 📦 Base de datos: SQLite (plug and play)
+[2025-11-26 17:27:23] [INFO] [__main__] ============================================================
+[2025-11-26 17:27:23] [INFO] [__main__] 
+============================================================
+[2025-11-26 17:27:23] [INFO] [__main__] 📄 Procesando: OT 2465 - EJEMPLO SEDIMENTO 3_Censurado.pdf
+[2025-11-26 17:27:23] [INFO] [__main__] ============================================================
+[2025-11-26 17:27:23] [INFO] [__main__] 📋 Extrayendo metadatos...
+[2025-11-26 17:27:24] [INFO] [extractors.metadata_extractor] 🔍 Página 1 vacía, intentando OCR...
+[2025-11-26 17:27:24] [INFO] [utils.ocr_metadata_extractor] 📸 Extrayendo texto con OCR de página 1...
+[2025-11-26 17:27:24] [INFO] [utils.ocr_metadata_extractor]   Convirtiendo página 1 a imagen...
+[2025-11-26 17:27:24] [INFO] [utils.ocr_metadata_extractor]   Ejecutando OCR...
+[2025-11-26 17:27:25] [INFO] [utils.ocr_metadata_extractor]   ✓ OCR completado: 1036 caracteres extraídos
+[2025-11-26 17:27:25] [INFO] [utils.ocr_metadata_extractor] ============================================================
+[2025-11-26 17:27:25] [INFO] [utils.ocr_metadata_extractor] TEXTO EXTRAÍDO CON OCR:
+[2025-11-26 17:27:25] [INFO] [utils.ocr_metadata_extractor] RL-10
+INFORME DE ENSAYO Área Laboratorio
+Versión 01
+NS OT 2465 Enero 2020
+Página 1 de 7
+INFORMACION DEL PROYECTO
+ID/Nombre: Wagner 2
+Código centro: 120117
+Categoría: 3
+INFORMACION DEL TERRENO
+Tipo de Monitoreo: INFA Postanaeróbica
+Responsable Terreno: Rodrigo Huanel / Juan Carlos Paredes
+Fecha Inicio/Fin: 05-04-2023
+Hora Inicio/Fin: 14:20 - 19:50
+NÚMERO DE MUESTRAS
+Materia Orgánica: 24
+pH/Redox: 24
+Granulometría: -
+Macrofauna bentónica: -
+Perfiles de la columna de agua: -
+INFORMACION DEL ENSAYO
+
+[2025-11-26 17:27:25] [INFO] [utils.ocr_metadata_extractor] ============================================================
+[2025-11-26 17:27:25] [INFO] [utils.ocr_metadata_extractor]   ✓ Código centro: 120117
+[2025-11-26 17:27:25] [INFO] [utils.ocr_metadata_extractor]   ✓ Nombre centro: Wagner 2
+[2025-11-26 17:27:25] [INFO] [utils.ocr_metadata_extractor]   ✓ Categoría: 3
+[2025-11-26 17:27:25] [INFO] [utils.ocr_metadata_extractor]   ✓ Tipo monitoreo: INFA-POSTANAEROBICA
+[2025-11-26 17:27:25] [INFO] [utils.ocr_metadata_extractor]   ✓ Fecha muestreo: 2023-04-05
+[2025-11-26 17:27:25] [INFO] [utils.ocr_metadata_extractor]   ✓ Fecha ingreso: 2023-04-12
+[2025-11-26 17:27:25] [INFO] [utils.ocr_metadata_extractor] ✅ Metadatos extraídos con OCR:
+[2025-11-26 17:27:25] [INFO] [utils.ocr_metadata_extractor]   codigo_centro: 120117
+[2025-11-26 17:27:25] [INFO] [utils.ocr_metadata_extractor]   nombre_centro: Wagner 2
+[2025-11-26 17:27:25] [INFO] [utils.ocr_metadata_extractor]   categoria: 3
+[2025-11-26 17:27:25] [INFO] [utils.ocr_metadata_extractor]   tipo_monitoreo: INFA-POSTANAEROBICA
+[2025-11-26 17:27:25] [INFO] [utils.ocr_metadata_extractor]   fecha_muestreo: 2023-04-05
+[2025-11-26 17:27:25] [INFO] [utils.ocr_metadata_extractor]   fecha_ingreso: 2023-04-12
+[2025-11-26 17:27:25] [INFO] [extractors.metadata_extractor] ✅ Metadatos extraídos con OCR
+[2025-11-26 17:27:25] [INFO] [extractors.metadata_extractor] ============================================================
+[2025-11-26 17:27:25] [INFO] [extractors.metadata_extractor] PÁGINA 1 (primeros 500 chars):
+[2025-11-26 17:27:25] [INFO] [extractors.metadata_extractor] [VACÍA]
+[2025-11-26 17:27:25] [INFO] [extractors.metadata_extractor] ------------------------------------------------------------
+[2025-11-26 17:27:25] [INFO] [extractors.metadata_extractor] PÁGINA 2 (primeros 500 chars):
+[2025-11-26 17:27:25] [INFO] [extractors.metadata_extractor] RL-10
+INFORME DE ENSAYO Área Laboratorio
+Versión 01
+OT 2465
+Enero 2020
+Página 2 de 7
+UBICACIÓN - IDENTIFICACIÓN MUESTRAS
+UTM-WGS 84. HUSO 18S
+TIPO ESTACIÓN CÓDIGO RÉPLICAS UTM ESTE UTM NORTE PROFUNDIDAD
+Sedimento Estación 1 E1 R1,R2,R3 641264 4211354 27,0
+Sedimento Estación 2 E2 R1,R2,R3 641259 4211306 30,0
+Sedimento Estación 3 E3 R1,R2,R3 641242 4211212 40,0
+Sedimento Estación 4 E4 R1,R2,R3 641240 4211164 41,0
+Sedimento Estación 5 E5 R1,R2,R3 641316 4211173 40,0
+Sedimento Estación 6 E6 R1,R2,R3
+[2025-11-26 17:27:25] [INFO] [extractors.metadata_extractor] ------------------------------------------------------------
+[2025-11-26 17:27:25] [INFO] [extractors.metadata_extractor] PÁGINA 3 (primeros 500 chars):
+[2025-11-26 17:27:25] [INFO] [extractors.metadata_extractor] RL-10
+INFORME DE ENSAYO Área Laboratorio
+Versión 01
+OT 2465
+Enero 2020
+Página 3 de 7
+MATERIA ORGÁNICA TOTAL (MOT)
+CÓDIGO PESO SUBMUESTRA MATERIA ORGÁNICA TOTAL (%) PROMEDIO MOT
+E1-R1 10,021 15,95
+E1-R2 10,002 9,11 12,2
+E1-R3 10,030 11,47
+E2-R1 10,030 8,13
+E2-R2 10,005 9,95 8,9
+E2-R3 10,029 8,72
+E3-R1 10,020 8,47
+E3-R2 10,022 11,14 10,4
+E3-R3 10,015 11,65
+E4-R1 10,020 13,60
+E4-R2 10,001 11,69 11,6
+E4-R3 10,028 9,48
+E5-R1 10,007 14,49
+E5-R2 10,004 13,77 15,8
+E5-R3 10,030 19,03
+E6-R1 10,009 49,24
+E
+[2025-11-26 17:27:25] [INFO] [extractors.metadata_extractor] ------------------------------------------------------------
+[2025-11-26 17:27:25] [INFO] [extractors.metadata_extractor] ============================================================
+[2025-11-26 17:27:25] [INFO] [extractors.metadata_extractor] ✓ Usando metadatos del OCR (página 1 escaneada)
+[2025-11-26 17:27:25] [INFO] [extractors.metadata_extractor] 📋 Metadatos extraídos:
+[2025-11-26 17:27:25] [INFO] [extractors.metadata_extractor]   OT: 2465
+[2025-11-26 17:27:25] [INFO] [extractors.metadata_extractor]   Centro: 120117
+[2025-11-26 17:27:25] [INFO] [extractors.metadata_extractor]   Nombre: Wagner 2
+[2025-11-26 17:27:25] [INFO] [extractors.metadata_extractor]   Categoría: 3
+[2025-11-26 17:27:25] [INFO] [extractors.metadata_extractor]   Tipo: INFA-POSTANAEROBICA
+[2025-11-26 17:27:25] [INFO] [extractors.metadata_extractor]   Condición: ANAEROBICO
+[2025-11-26 17:27:25] [INFO] [extractors.metadata_extractor]   Fecha muestreo: 2023-04-05
+[2025-11-26 17:27:25] [INFO] [extractors.metadata_extractor]   Fecha ingreso: 2023-04-12
+[2025-11-26 17:27:25] [INFO] [__main__] ✅ OT extraído: 2465
+[2025-11-26 17:27:25] [INFO] [__main__] 📊 Tipo de informe: SEDIMENTO
+[2025-11-26 17:27:25] [INFO] [__main__] 🧪 Ejecutando extractor de sedimento...
+[2025-11-26 17:27:25] [INFO] [extractors.sedimento_extractor] 📄 Extrayendo sedimento: OT 2465 - EJEMPLO SEDIMENTO 3_Censurado.pdf
+[2025-11-26 17:27:26] [INFO] [extractors.sedimento_extractor] ✓ Ubicaciones: 8 estaciones
+[2025-11-26 17:27:26] [INFO] [extractors.sedimento_extractor] ✓ MOT: 24 mediciones
+[2025-11-26 17:27:26] [INFO] [extractors.sedimento_extractor] ✓ pH/Redox: 24 mediciones
+[2025-11-26 17:27:26] [INFO] [extractors.sedimento_extractor] 🔴 ANAERÓBICO: MOT=8/8, pH+Eh=0/8 (umbral: 3)
+[2025-11-26 17:27:26] [INFO] [extractors.sedimento_extractor] ============================================================
+[2025-11-26 17:27:26] [INFO] [extractors.sedimento_extractor] ✅ Extracción completada:
+[2025-11-26 17:27:26] [INFO] [extractors.sedimento_extractor]   📍 Ubicaciones: 8
+[2025-11-26 17:27:26] [INFO] [extractors.sedimento_extractor]   🏢 Estaciones: 8
+[2025-11-26 17:27:26] [INFO] [extractors.sedimento_extractor]   🧪 MOT (réplicas): 24
+[2025-11-26 17:27:26] [INFO] [extractors.sedimento_extractor]   ⚗️  pH/Redox (réplicas): 24
+[2025-11-26 17:27:26] [INFO] [extractors.sedimento_extractor]   📊 Estado: True
+[2025-11-26 17:27:26] [INFO] [extractors.sedimento_extractor] ============================================================
+[2025-11-26 17:27:26] [INFO] [__main__] ✅ Validando datos...
+[2025-11-26 17:27:26] [INFO] [__main__] 🔍 DRY RUN: No se cargó a base de datos
+[2025-11-26 17:27:26] [INFO] [__main__]    Registros que se cargarían:
+[2025-11-26 17:27:26] [INFO] [__main__]    - Estaciones: 8
+[2025-11-26 17:27:26] [INFO] [__main__]    - MOT: 24
+[2025-11-26 17:27:26] [INFO] [__main__]    - pH/Redox: 24
+[2025-11-26 17:27:26] [INFO] [__main__] ⏱️ Procesamiento completado en 2.54 segundos
